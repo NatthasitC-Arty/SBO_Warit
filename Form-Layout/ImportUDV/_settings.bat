@@ -8,7 +8,7 @@ REM ============================================================
 
 REM --- Database (also used as DI API credentials) ---
 set SERVER=10.10.10.115
-set COMPANYDB=SBO_SDA_UAT
+set COMPANYDB=SBO_Warit
 set DBUSER=sa
 set DBPASSWORD=1q2w3e4r@
 

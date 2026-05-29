@@ -131,3 +131,14 @@
 [2026-05-14 00:46:17] [INFO] Read 102 CSHS rows; expanded to 156 CSV rows
 [2026-05-14 00:46:17] [INFO] === Done. Exported 156 records ===
 [2026-05-14 00:46:17] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_004616.csv
+[2026-05-29 11:35:24] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-29 11:35:24] [INFO] Server   : 10.10.10.115
+[2026-05-29 11:35:24] [INFO] CompanyDB: SBO_SDA_REAL
+[2026-05-29 11:35:24] [INFO] OutFile  : C:\GitHub\SBO_Warit\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260529_113524.csv
+[2026-05-29 11:35:24] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_REAL
+[2026-05-29 11:35:24] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-29 11:35:24] [INFO] Loaded 305 saved queries from OUQR
+[2026-05-29 11:35:24] [INFO] Loaded SHS1 triggers for 57 CSHS row(s)
+[2026-05-29 11:35:24] [INFO] Read 65 CSHS rows; expanded to 111 CSV rows
+[2026-05-29 11:35:24] [INFO] === Done. Exported 111 records ===
+[2026-05-29 11:35:24] [INFO] Output: C:\GitHub\SBO_Warit\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260529_113524.csv
