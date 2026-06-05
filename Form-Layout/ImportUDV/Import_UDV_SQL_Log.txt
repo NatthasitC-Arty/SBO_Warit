@@ -771,3 +771,742 @@
 [2026-05-29 11:37:20] [INFO]   OK UPSERT->ADD 721|13|57 Action=UPSERT IndexID=70
 [2026-05-29 11:37:20] [INFO]   Triggers (SHS1) IndexID=70 : -0 +1 (1)
 [2026-05-29 11:37:20] [INFO] Committed. OK=63 FAIL=2 SKIP=0
+[2026-06-04 16:34:51] [INFO] === Start UDV Import (SQL Direct) ===
+[2026-06-04 16:34:51] [INFO] MapFile: C:\GitHub\SBO_Warit\Form-Layout\ImportUDV\Config\UDV_Delete_DiscFMS_20260525.csv  (181 CSV rows)
+[2026-06-04 16:34:51] [INFO] DryRun : False
+[2026-06-04 16:34:51] [INFO] Grouped to 100 unique CSHS key(s)
+[2026-06-04 16:34:52] [INFO] Connected to SQL: 172.20.10.4 / SBO_SDA
+[2026-06-04 16:34:52] [INFO] Pre-loaded 36 existing CSHS rows
+[2026-06-04 16:34:52] [INFO] Pre-loaded 204 OUQR queries
+[2026-06-04 16:34:52] [INFO] Current MAX(IndexID)=38
+[2026-06-04 16:34:52] [WARN]   SKIP 133|38|15 Action=DELETE : not found
+[2026-06-04 16:34:52] [WARN]   SKIP 133|38|20 Action=DELETE : not found
+[2026-06-04 16:34:52] [WARN]   SKIP 133|38|21 Action=DELETE : not found
+[2026-06-04 16:34:52] [WARN]   SKIP 133|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:52] [WARN]   SKIP 133|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:52] [WARN]   SKIP 133|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:52] [INFO]   OK DELETE 139|38|15 Action=DELETE IndexID=33 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:52] [INFO]   OK DELETE 139|38|20 Action=DELETE IndexID=34 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:52] [INFO]   OK DELETE 139|38|21 Action=DELETE IndexID=35 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:52] [INFO]   OK DELETE 139|38|U_SLD_Dis_Amount Action=DELETE IndexID=36 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:52] [INFO]   OK DELETE 139|38|U_SLD_Dis_Sum Action=DELETE IndexID=37 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:52] [INFO]   OK DELETE 139|38|U_SLD_T_BeDis Action=DELETE IndexID=38 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:52] [WARN]   SKIP 140|38|15 Action=DELETE : not found
+[2026-06-04 16:34:52] [WARN]   SKIP 140|38|20 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 140|38|21 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 140|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 140|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 140|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 141|38|15 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 141|38|20 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 141|38|21 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 141|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 141|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 141|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 142|38|15 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 142|38|20 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 142|38|21 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 142|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 142|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 142|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 143|38|15 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 143|38|20 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 143|38|21 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 143|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 143|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 143|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:53] [INFO]   OK DELETE 1470000200|38|15 Action=DELETE IndexID=25 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:53] [INFO]   OK DELETE 1470000200|38|21 Action=DELETE IndexID=26 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:53] [INFO]   OK DELETE 1470000200|38|U_SLD_T_BeDis Action=DELETE IndexID=24 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:53] [INFO]   OK DELETE 149|38|15 Action=DELETE IndexID=22 (SHS1 child rows removed: 2)
+[2026-06-04 16:34:53] [INFO]   OK DELETE 149|38|20 Action=DELETE IndexID=29 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:53] [INFO]   OK DELETE 149|38|21 Action=DELETE IndexID=23 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:53] [INFO]   OK DELETE 149|38|U_SLD_Dis_Amount Action=DELETE IndexID=30 (SHS1 child rows removed: 0)
+[2026-06-04 16:34:53] [INFO]   OK DELETE 149|38|U_SLD_Dis_Sum Action=DELETE IndexID=31 (SHS1 child rows removed: 2)
+[2026-06-04 16:34:53] [INFO]   OK DELETE 149|38|U_SLD_T_BeDis Action=DELETE IndexID=21 (SHS1 child rows removed: 3)
+[2026-06-04 16:34:53] [WARN]   SKIP 178|38|15 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 178|38|20 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 178|38|21 Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 178|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 178|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:53] [WARN]   SKIP 178|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 179|38|15 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 179|38|20 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 179|38|21 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 179|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 179|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 179|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 18|38|15 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 18|38|20 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 18|38|21 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 18|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 18|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 18|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 181|38|15 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 181|38|20 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 181|38|21 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 181|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 181|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 181|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 19|38|15 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 19|38|20 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 19|38|21 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 19|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 19|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 19|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 20|38|15 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 20|38|20 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 20|38|21 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 20|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 20|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 20|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 21|38|15 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 21|38|20 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 21|38|21 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 21|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 21|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 21|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 22|38|15 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 22|38|20 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 22|38|21 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 22|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 22|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 22|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 540000405|38|15 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 540000405|38|20 Action=DELETE : not found
+[2026-06-04 16:34:54] [WARN]   SKIP 540000405|38|21 Action=DELETE : not found
+[2026-06-04 16:34:55] [WARN]   SKIP 540000405|38|U_SLD_Dis_Amount Action=DELETE : not found
+[2026-06-04 16:34:55] [WARN]   SKIP 540000405|38|U_SLD_Dis_Sum Action=DELETE : not found
+[2026-06-04 16:34:55] [WARN]   SKIP 540000405|38|U_SLD_T_BeDis Action=DELETE : not found
+[2026-06-04 16:34:55] [INFO]   OK DELETE 65300|38|U_SLD_T_BeDis Action=DELETE IndexID=32 (SHS1 child rows removed: 2)
+[2026-06-04 16:34:55] [INFO] Committed. OK=16 FAIL=0 SKIP=84
+[2026-06-04 19:31:03] [INFO] === Start UDV Import (SQL Direct) ===
+[2026-06-04 19:31:03] [INFO] MapFile: C:\GitHub\SBO_Warit\Form-Layout\ImportUDV\Config\UDV_Export_20260529_113524.csv  (111 CSV rows)
+[2026-06-04 19:31:03] [INFO] DryRun : False
+[2026-06-04 19:31:03] [INFO] Grouped to 65 unique CSHS key(s)
+[2026-06-04 19:31:04] [INFO] Connected to SQL: 172.20.10.4 / SBO_SDA_Key
+[2026-06-04 19:31:04] [INFO] Pre-loaded 20 existing CSHS rows
+[2026-06-04 19:31:04] [INFO] Pre-loaded 204 OUQR queries
+[2026-06-04 19:31:04] [INFO] Current MAX(IndexID)=20
+[2026-06-04 19:31:04] [ERROR]   FAIL 133|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:04] [ERROR]   FAIL 133|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:04] [ERROR]   FAIL 133|38|31 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:04] [ERROR]   FAIL 133|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:04] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:31:04] [INFO]   OK UPSERT->ADD 133|38|U_SLD_T_BeDis Action=UPSERT IndexID=21
+[2026-06-04 19:31:04] [INFO]   Triggers (SHS1) IndexID=21 : -0 +2 (11, 14)
+[2026-06-04 19:31:04] [INFO]   Reuse Query 'BPSeries' (IntrnalKey=295), body updated
+[2026-06-04 19:31:04] [INFO]   OK UPSERT->UPDATE 134|1320002080|-1 Action=UPSERT IndexID=18
+[2026-06-04 19:31:04] [INFO]   Triggers (SHS1) IndexID=18 : -0 +1 (3)
+[2026-06-04 19:31:04] [INFO]   Reuse Query 'BPAccount' (IntrnalKey=292), body updated
+[2026-06-04 19:31:04] [INFO]   OK UPSERT->UPDATE 134|56|-1 Action=UPSERT IndexID=16
+[2026-06-04 19:31:04] [INFO]   Triggers (SHS1) IndexID=16 : -0 +1 (3)
+[2026-06-04 19:31:04] [INFO]   Reuse Query 'FMS_FullName' (IntrnalKey=278), body updated
+[2026-06-04 19:31:04] [INFO]   OK UPSERT->UPDATE 134|7|-1 Action=UPSERT IndexID=1
+[2026-06-04 19:31:04] [INFO]   Triggers (SHS1) IndexID=1 : -2 +2 (U_SLD_Fullname, U_SLD_Title)
+[2026-06-04 19:31:04] [ERROR]   FAIL 139|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:04] [ERROR]   FAIL 139|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:04] [ERROR]   FAIL 139|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:31:05] [INFO]   OK UPSERT->ADD 139|38|U_SLD_T_BeDis Action=UPSERT IndexID=22
+[2026-06-04 19:31:05] [INFO]   Triggers (SHS1) IndexID=22 : -0 +2 (11, 14)
+[2026-06-04 19:31:05] [ERROR]   FAIL 140|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [ERROR]   FAIL 140|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [ERROR]   FAIL 140|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:31:05] [INFO]   OK UPSERT->ADD 140|38|U_SLD_T_BeDis Action=UPSERT IndexID=23
+[2026-06-04 19:31:05] [INFO]   Triggers (SHS1) IndexID=23 : -0 +2 (11, 14)
+[2026-06-04 19:31:05] [ERROR]   FAIL 141|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [ERROR]   FAIL 141|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [ERROR]   FAIL 141|38|31 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [ERROR]   FAIL 141|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:31:05] [INFO]   OK UPSERT->ADD 141|38|U_SLD_T_BeDis Action=UPSERT IndexID=24
+[2026-06-04 19:31:05] [INFO]   Triggers (SHS1) IndexID=24 : -0 +2 (11, 14)
+[2026-06-04 19:31:05] [ERROR]   FAIL 142|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [ERROR]   FAIL 142|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [ERROR]   FAIL 142|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:05] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:31:05] [INFO]   OK UPSERT->ADD 142|38|U_SLD_T_BeDis Action=UPSERT IndexID=25
+[2026-06-04 19:31:05] [INFO]   Triggers (SHS1) IndexID=25 : -0 +2 (11, 14)
+[2026-06-04 19:31:05] [ERROR]   FAIL 143|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 143|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 143|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:31:06] [INFO]   OK UPSERT->ADD 143|38|U_SLD_T_BeDis Action=UPSERT IndexID=26
+[2026-06-04 19:31:06] [INFO]   Triggers (SHS1) IndexID=26 : -0 +2 (11, 14)
+[2026-06-04 19:31:06] [ERROR]   FAIL 149|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 149|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 149|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:31:06] [INFO]   OK UPSERT->ADD 149|38|U_SLD_T_BeDis Action=UPSERT IndexID=27
+[2026-06-04 19:31:06] [INFO]   Triggers (SHS1) IndexID=27 : -0 +2 (11, 14)
+[2026-06-04 19:31:06] [INFO]   Reuse Query 'ItemSeries' (IntrnalKey=296), body updated
+[2026-06-04 19:31:06] [INFO]   OK UPSERT->UPDATE 150|1320002059|-1 Action=UPSERT IndexID=20
+[2026-06-04 19:31:06] [INFO]   Triggers (SHS1) IndexID=20 : -0 +1 (3)
+[2026-06-04 19:31:06] [ERROR]   FAIL 179|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 179|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 179|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:31:06] [INFO]   OK UPSERT->ADD 179|38|U_SLD_T_BeDis Action=UPSERT IndexID=28
+[2026-06-04 19:31:06] [INFO]   Triggers (SHS1) IndexID=28 : -0 +2 (11, 14)
+[2026-06-04 19:31:06] [ERROR]   FAIL 18|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 180|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 181|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 181|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [ERROR]   FAIL 181|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:31:06] [INFO]   OK UPSERT->ADD 181|38|U_SLD_T_BeDis Action=UPSERT IndexID=29
+[2026-06-04 19:31:06] [INFO]   Triggers (SHS1) IndexID=29 : -0 +2 (11, 14)
+[2026-06-04 19:31:06] [ERROR]   FAIL 182|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:06] [INFO]   Reuse Query 'ItemGroup' (IntrnalKey=297), body updated
+[2026-06-04 19:31:06] [INFO]   OK UPSERT->UPDATE 185|4|U_SLD_ItemSeries Action=UPSERT IndexID=19
+[2026-06-04 19:31:06] [INFO]   Reuse Query 'BPGroup' (IntrnalKey=294), body updated
+[2026-06-04 19:31:07] [INFO]   OK UPSERT->UPDATE 185|4|U_SLD_Series Action=UPSERT IndexID=17
+[2026-06-04 19:31:07] [ERROR]   FAIL 203|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:07] [ERROR]   FAIL 204|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:07] [INFO]   Reuse Query 'JE BP Address (ที่อยู่คู่ค้า)' (IntrnalKey=282), body updated
+[2026-06-04 19:31:07] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_BPAds Action=UPSERT IndexID=5
+[2026-06-04 19:31:07] [INFO]   Triggers (SHS1) IndexID=5 : -0 +1 (U_SLD_SuppCode)
+[2026-06-04 19:31:07] [INFO]   Reuse Query 'JE_Select BP Name (ชื่อคู่ค้า)' (IntrnalKey=279), body updated
+[2026-06-04 19:31:07] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_CardName Action=UPSERT IndexID=2
+[2026-06-04 19:31:07] [INFO]   Triggers (SHS1) IndexID=2 : -0 +1 (U_SLD_SuppCode)
+[2026-06-04 19:31:07] [INFO]   Reuse Query 'JE_Select Tax Id (เลขประจำตัวผู้เสียภาษี)' (IntrnalKey=280), body updated
+[2026-06-04 19:31:07] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_LBPTaxID Action=UPSERT IndexID=3
+[2026-06-04 19:31:07] [INFO]   Triggers (SHS1) IndexID=3 : -0 +1 (U_SLD_SuppCode)
+[2026-06-04 19:31:07] [INFO]   Reuse Query 'JE Select BP Branch (สาขาคู่ค้า)' (IntrnalKey=281), body updated
+[2026-06-04 19:31:07] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_LPBranch Action=UPSERT IndexID=4
+[2026-06-04 19:31:07] [INFO]   Triggers (SHS1) IndexID=4 : -0 +1 (U_SLD_SuppCode)
+[2026-06-04 19:31:07] [INFO]   Reuse Query 'JE Cal WhBaseAmount (ฐานภาษีหัก ณ ที่จ่าย)' (IntrnalKey=284), body updated
+[2026-06-04 19:31:07] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_WTBaseAmt Action=UPSERT IndexID=7
+[2026-06-04 19:31:07] [INFO]   Triggers (SHS1) IndexID=7 : -0 +1 (U_SLD_WTCode)
+[2026-06-04 19:31:07] [INFO]   Reuse Query 'JE_JV Select WH Code (รหัสภาษีหัก ณ ที่จ่าย)' (IntrnalKey=283), body updated
+[2026-06-04 19:31:07] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_WTCode Action=UPSERT IndexID=6
+[2026-06-04 19:31:07] [INFO]   Reuse Query 'JV BP Address (ที่อยู่คู่ค้า)' (IntrnalKey=288), body updated
+[2026-06-04 19:31:07] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_BPAds Action=UPSERT IndexID=11
+[2026-06-04 19:31:07] [INFO]   Triggers (SHS1) IndexID=11 : -0 +1 (U_SLD_SuppCode)
+[2026-06-04 19:31:07] [INFO]   Reuse Query 'JV_Select BP Name (ชื่อคู่ค้า)' (IntrnalKey=285), body updated
+[2026-06-04 19:31:07] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_CardName Action=UPSERT IndexID=8
+[2026-06-04 19:31:07] [INFO]   Triggers (SHS1) IndexID=8 : -0 +1 (U_SLD_SuppCode)
+[2026-06-04 19:31:08] [INFO]   Reuse Query 'JV_Select Tax Id (เลขประจำตัวผู้เสียภาษี)' (IntrnalKey=286), body updated
+[2026-06-04 19:31:08] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_LBPTaxID Action=UPSERT IndexID=9
+[2026-06-04 19:31:08] [INFO]   Triggers (SHS1) IndexID=9 : -0 +1 (U_SLD_SuppCode)
+[2026-06-04 19:31:08] [INFO]   Reuse Query 'JV_Select BP Branch (สาขาคู่ค้า)' (IntrnalKey=287), body updated
+[2026-06-04 19:31:08] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_LPBranch Action=UPSERT IndexID=10
+[2026-06-04 19:31:08] [INFO]   Triggers (SHS1) IndexID=10 : -0 +1 (U_SLD_SuppCode)
+[2026-06-04 19:31:08] [INFO]   Reuse Query 'JV Cal WhBaseAmount (ฐานภาษีหัก ณ ที่จ่าย)' (IntrnalKey=289), body updated
+[2026-06-04 19:31:08] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_WTBaseAmt Action=UPSERT IndexID=13
+[2026-06-04 19:31:08] [INFO]   Triggers (SHS1) IndexID=13 : -0 +1 (U_SLD_WTCode)
+[2026-06-04 19:31:08] [INFO]   Reuse Query 'JE_JV Select WH Code (รหัสภาษีหัก ณ ที่จ่าย)' (IntrnalKey=283), body updated
+[2026-06-04 19:31:08] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_WTCode Action=UPSERT IndexID=12
+[2026-06-04 19:31:08] [ERROR]   FAIL 540000841|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:08] [ERROR]   FAIL 65300|38|31 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 19:31:08] [INFO]   Reuse Query 'Acc_Issue' (IntrnalKey=290), body updated
+[2026-06-04 19:31:08] [INFO]   OK UPSERT->UPDATE 720|13|57 Action=UPSERT IndexID=15
+[2026-06-04 19:31:08] [INFO]   Triggers (SHS1) IndexID=15 : -0 +1 (1)
+[2026-06-04 19:31:08] [INFO]   Reuse Query 'Acc_Receive' (IntrnalKey=291), body updated
+[2026-06-04 19:31:08] [INFO]   OK UPSERT->UPDATE 721|13|57 Action=UPSERT IndexID=14
+[2026-06-04 19:31:08] [INFO]   Triggers (SHS1) IndexID=14 : -0 +1 (1)
+[2026-06-04 19:31:08] [INFO] Committed. OK=29 FAIL=36 SKIP=0
+[2026-06-04 19:32:08] [INFO] === Start UDV Import (SQL Direct) ===
+[2026-06-04 19:32:08] [INFO] MapFile: C:\GitHub\SBO_Warit\Form-Layout\ImportUDV\Config\UDV_AllSales_AllPurchase.csv  (143 CSV rows)
+[2026-06-04 19:32:09] [INFO] DryRun : False
+[2026-06-04 19:32:09] [INFO] Grouped to 78 unique CSHS key(s)
+[2026-06-04 19:32:09] [INFO] Connected to SQL: 172.20.10.4 / SBO_SDA_Key
+[2026-06-04 19:32:09] [INFO] Pre-loaded 29 existing CSHS rows
+[2026-06-04 19:32:09] [INFO] Pre-loaded 204 OUQR queries
+[2026-06-04 19:32:09] [INFO] Current MAX(IndexID)=29
+[2026-06-04 19:32:09] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:09] [INFO]   OK UPSERT->ADD 143|38|15 Action=UPSERT IndexID=30
+[2026-06-04 19:32:09] [INFO]   Triggers (SHS1) IndexID=30 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:09] [INFO]   OK UPSERT->ADD 143|38|20 Action=UPSERT IndexID=31
+[2026-06-04 19:32:09] [INFO]   OK UPSERT->ADD 143|38|21 Action=UPSERT IndexID=32
+[2026-06-04 19:32:09] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:09] [INFO]   OK UPSERT->ADD 143|38|U_SLD_Dis_Amount Action=UPSERT IndexID=33
+[2026-06-04 19:32:09] [INFO]   Triggers (SHS1) IndexID=33 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:09] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:09] [INFO]   OK UPSERT->ADD 143|38|U_SLD_Dis_Sum Action=UPSERT IndexID=34
+[2026-06-04 19:32:09] [INFO]   Triggers (SHS1) IndexID=34 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:09] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:09] [INFO]   OK UPSERT->UPDATE 143|38|U_SLD_T_BeDis Action=UPSERT IndexID=26
+[2026-06-04 19:32:09] [INFO]   Triggers (SHS1) IndexID=26 : -2 +3 (11, 14, 20)
+[2026-06-04 19:32:09] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:09] [INFO]   OK UPSERT->ADD 139|38|15 Action=UPSERT IndexID=35
+[2026-06-04 19:32:10] [INFO]   Triggers (SHS1) IndexID=35 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->ADD 139|38|20 Action=UPSERT IndexID=36
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->ADD 139|38|21 Action=UPSERT IndexID=37
+[2026-06-04 19:32:10] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->ADD 139|38|U_SLD_Dis_Amount Action=UPSERT IndexID=38
+[2026-06-04 19:32:10] [INFO]   Triggers (SHS1) IndexID=38 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:10] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->ADD 139|38|U_SLD_Dis_Sum Action=UPSERT IndexID=39
+[2026-06-04 19:32:10] [INFO]   Triggers (SHS1) IndexID=39 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:10] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->UPDATE 139|38|U_SLD_T_BeDis Action=UPSERT IndexID=22
+[2026-06-04 19:32:10] [INFO]   Triggers (SHS1) IndexID=22 : -2 +3 (11, 14, 20)
+[2026-06-04 19:32:10] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->ADD 141|38|15 Action=UPSERT IndexID=40
+[2026-06-04 19:32:10] [INFO]   Triggers (SHS1) IndexID=40 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->ADD 141|38|20 Action=UPSERT IndexID=41
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->ADD 141|38|21 Action=UPSERT IndexID=42
+[2026-06-04 19:32:10] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->ADD 141|38|U_SLD_Dis_Amount Action=UPSERT IndexID=43
+[2026-06-04 19:32:10] [INFO]   Triggers (SHS1) IndexID=43 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:10] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:10] [INFO]   OK UPSERT->ADD 141|38|U_SLD_Dis_Sum Action=UPSERT IndexID=44
+[2026-06-04 19:32:11] [INFO]   Triggers (SHS1) IndexID=44 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:11] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->UPDATE 141|38|U_SLD_T_BeDis Action=UPSERT IndexID=24
+[2026-06-04 19:32:11] [INFO]   Triggers (SHS1) IndexID=24 : -2 +3 (11, 14, 20)
+[2026-06-04 19:32:11] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 178|38|15 Action=UPSERT IndexID=45
+[2026-06-04 19:32:11] [INFO]   Triggers (SHS1) IndexID=45 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 178|38|20 Action=UPSERT IndexID=46
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 178|38|21 Action=UPSERT IndexID=47
+[2026-06-04 19:32:11] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 178|38|U_SLD_Dis_Amount Action=UPSERT IndexID=48
+[2026-06-04 19:32:11] [INFO]   Triggers (SHS1) IndexID=48 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:11] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 178|38|U_SLD_Dis_Sum Action=UPSERT IndexID=49
+[2026-06-04 19:32:11] [INFO]   Triggers (SHS1) IndexID=49 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:11] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 178|38|U_SLD_T_BeDis Action=UPSERT IndexID=50
+[2026-06-04 19:32:11] [INFO]   Triggers (SHS1) IndexID=50 : -0 +3 (11, 14, 20)
+[2026-06-04 19:32:11] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 133|38|15 Action=UPSERT IndexID=51
+[2026-06-04 19:32:11] [INFO]   Triggers (SHS1) IndexID=51 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 133|38|20 Action=UPSERT IndexID=52
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 133|38|21 Action=UPSERT IndexID=53
+[2026-06-04 19:32:11] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 133|38|U_SLD_Dis_Amount Action=UPSERT IndexID=54
+[2026-06-04 19:32:11] [INFO]   Triggers (SHS1) IndexID=54 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:11] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:11] [INFO]   OK UPSERT->ADD 133|38|U_SLD_Dis_Sum Action=UPSERT IndexID=55
+[2026-06-04 19:32:11] [INFO]   Triggers (SHS1) IndexID=55 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:11] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->UPDATE 133|38|U_SLD_T_BeDis Action=UPSERT IndexID=21
+[2026-06-04 19:32:12] [INFO]   Triggers (SHS1) IndexID=21 : -2 +3 (11, 14, 20)
+[2026-06-04 19:32:12] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 179|38|15 Action=UPSERT IndexID=56
+[2026-06-04 19:32:12] [INFO]   Triggers (SHS1) IndexID=56 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 179|38|20 Action=UPSERT IndexID=57
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 179|38|21 Action=UPSERT IndexID=58
+[2026-06-04 19:32:12] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 179|38|U_SLD_Dis_Amount Action=UPSERT IndexID=59
+[2026-06-04 19:32:12] [INFO]   Triggers (SHS1) IndexID=59 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:12] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 179|38|U_SLD_Dis_Sum Action=UPSERT IndexID=60
+[2026-06-04 19:32:12] [INFO]   Triggers (SHS1) IndexID=60 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:12] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->UPDATE 179|38|U_SLD_T_BeDis Action=UPSERT IndexID=28
+[2026-06-04 19:32:12] [INFO]   Triggers (SHS1) IndexID=28 : -2 +3 (11, 14, 20)
+[2026-06-04 19:32:12] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 149|38|15 Action=UPSERT IndexID=61
+[2026-06-04 19:32:12] [INFO]   Triggers (SHS1) IndexID=61 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 149|38|20 Action=UPSERT IndexID=62
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 149|38|21 Action=UPSERT IndexID=63
+[2026-06-04 19:32:12] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 149|38|U_SLD_Dis_Amount Action=UPSERT IndexID=64
+[2026-06-04 19:32:12] [INFO]   Triggers (SHS1) IndexID=64 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:12] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:12] [INFO]   OK UPSERT->ADD 149|38|U_SLD_Dis_Sum Action=UPSERT IndexID=65
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=65 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->UPDATE 149|38|U_SLD_T_BeDis Action=UPSERT IndexID=27
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=27 : -2 +3 (11, 14, 20)
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 540000405|38|15 Action=UPSERT IndexID=66
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=66 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 540000405|38|20 Action=UPSERT IndexID=67
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 540000405|38|21 Action=UPSERT IndexID=68
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 540000405|38|U_SLD_Dis_Amount Action=UPSERT IndexID=69
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=69 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 540000405|38|U_SLD_Dis_Sum Action=UPSERT IndexID=70
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=70 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 540000405|38|U_SLD_T_BeDis Action=UPSERT IndexID=71
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=71 : -0 +3 (11, 14, 20)
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 22|38|15 Action=UPSERT IndexID=72
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=72 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 22|38|20 Action=UPSERT IndexID=73
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 22|38|21 Action=UPSERT IndexID=74
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 22|38|U_SLD_Dis_Amount Action=UPSERT IndexID=75
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=75 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 22|38|U_SLD_Dis_Sum Action=UPSERT IndexID=76
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=76 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 22|38|U_SLD_T_BeDis Action=UPSERT IndexID=77
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=77 : -0 +3 (11, 14, 20)
+[2026-06-04 19:32:13] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 20|38|15 Action=UPSERT IndexID=78
+[2026-06-04 19:32:13] [INFO]   Triggers (SHS1) IndexID=78 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:13] [INFO]   OK UPSERT->ADD 20|38|20 Action=UPSERT IndexID=79
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 20|38|21 Action=UPSERT IndexID=80
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 20|38|U_SLD_Dis_Amount Action=UPSERT IndexID=81
+[2026-06-04 19:32:14] [INFO]   Triggers (SHS1) IndexID=81 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 20|38|U_SLD_Dis_Sum Action=UPSERT IndexID=82
+[2026-06-04 19:32:14] [INFO]   Triggers (SHS1) IndexID=82 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 20|38|U_SLD_T_BeDis Action=UPSERT IndexID=83
+[2026-06-04 19:32:14] [INFO]   Triggers (SHS1) IndexID=83 : -0 +3 (11, 14, 20)
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 21|38|15 Action=UPSERT IndexID=84
+[2026-06-04 19:32:14] [INFO]   Triggers (SHS1) IndexID=84 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 21|38|20 Action=UPSERT IndexID=85
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 21|38|21 Action=UPSERT IndexID=86
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 21|38|U_SLD_Dis_Amount Action=UPSERT IndexID=87
+[2026-06-04 19:32:14] [INFO]   Triggers (SHS1) IndexID=87 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 21|38|U_SLD_Dis_Sum Action=UPSERT IndexID=88
+[2026-06-04 19:32:14] [INFO]   Triggers (SHS1) IndexID=88 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 21|38|U_SLD_T_BeDis Action=UPSERT IndexID=89
+[2026-06-04 19:32:14] [INFO]   Triggers (SHS1) IndexID=89 : -0 +3 (11, 14, 20)
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 18|38|15 Action=UPSERT IndexID=90
+[2026-06-04 19:32:14] [INFO]   Triggers (SHS1) IndexID=90 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 18|38|20 Action=UPSERT IndexID=91
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 18|38|21 Action=UPSERT IndexID=92
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:14] [INFO]   OK UPSERT->ADD 18|38|U_SLD_Dis_Amount Action=UPSERT IndexID=93
+[2026-06-04 19:32:14] [INFO]   Triggers (SHS1) IndexID=93 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:14] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:15] [INFO]   OK UPSERT->ADD 18|38|U_SLD_Dis_Sum Action=UPSERT IndexID=94
+[2026-06-04 19:32:15] [INFO]   Triggers (SHS1) IndexID=94 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:15] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:15] [INFO]   OK UPSERT->ADD 18|38|U_SLD_T_BeDis Action=UPSERT IndexID=95
+[2026-06-04 19:32:15] [INFO]   Triggers (SHS1) IndexID=95 : -0 +3 (11, 14, 20)
+[2026-06-04 19:32:15] [INFO]   Reuse Query 'FMS_DisAmount' (IntrnalKey=298), body updated
+[2026-06-04 19:32:15] [INFO]   OK UPSERT->ADD 19|38|15 Action=UPSERT IndexID=96
+[2026-06-04 19:32:15] [INFO]   Triggers (SHS1) IndexID=96 : -0 +2 (U_SLD_T_BeDis, U_SLD_Dis_Sum)
+[2026-06-04 19:32:15] [INFO]   OK UPSERT->ADD 19|38|20 Action=UPSERT IndexID=97
+[2026-06-04 19:32:15] [INFO]   OK UPSERT->ADD 19|38|21 Action=UPSERT IndexID=98
+[2026-06-04 19:32:15] [INFO]   Reuse Query 'FMS_ToUnit' (IntrnalKey=303), body updated
+[2026-06-04 19:32:15] [INFO]   OK UPSERT->ADD 19|38|U_SLD_Dis_Amount Action=UPSERT IndexID=99
+[2026-06-04 19:32:15] [INFO]   Triggers (SHS1) IndexID=99 : -0 +2 (U_SLD_Dis_Sum, 11)
+[2026-06-04 19:32:15] [INFO]   Reuse Query 'FMS_ToSum' (IntrnalKey=302), body updated
+[2026-06-04 19:32:15] [INFO]   OK UPSERT->ADD 19|38|U_SLD_Dis_Sum Action=UPSERT IndexID=100
+[2026-06-04 19:32:15] [INFO]   Triggers (SHS1) IndexID=100 : -0 +2 (U_SLD_Dis_Amount, 11)
+[2026-06-04 19:32:15] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=301), body updated
+[2026-06-04 19:32:15] [INFO]   OK UPSERT->ADD 19|38|U_SLD_T_BeDis Action=UPSERT IndexID=101
+[2026-06-04 19:32:15] [INFO]   Triggers (SHS1) IndexID=101 : -0 +3 (11, 14, 20)
+[2026-06-04 19:32:15] [INFO] Committed. OK=78 FAIL=0 SKIP=0
+[2026-06-04 20:19:55] [INFO] === Start UDV Import (SQL Direct) ===
+[2026-06-04 20:19:55] [INFO] MapFile: C:\GitHub\SBO_Warit\Form-Layout\ImportUDV\Config\UDV_Export_20260529_113524.csv  (111 CSV rows)
+[2026-06-04 20:19:55] [INFO] DryRun : False
+[2026-06-04 20:19:55] [INFO] Grouped to 65 unique CSHS key(s)
+[2026-06-04 20:19:55] [INFO] Connected to SQL: 172.20.10.4 / SBO_SDA_Key
+[2026-06-04 20:19:55] [INFO] Pre-loaded 46 existing CSHS rows
+[2026-06-04 20:19:55] [INFO] Pre-loaded 199 OUQR queries
+[2026-06-04 20:19:55] [INFO] Current MAX(IndexID)=98
+[2026-06-04 20:19:56] [ERROR]   FAIL 133|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 133|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 133|38|31 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 133|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 133|38|U_SLD_T_BeDis Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [INFO]   Reuse Query 'BPSeries' (IntrnalKey=295), body updated
+[2026-06-04 20:19:56] [INFO]   OK UPSERT->UPDATE 134|1320002080|-1 Action=UPSERT IndexID=18
+[2026-06-04 20:19:56] [INFO]   Triggers (SHS1) IndexID=18 : -1 +1 (3)
+[2026-06-04 20:19:56] [INFO]   Reuse Query 'BPAccount' (IntrnalKey=292), body updated
+[2026-06-04 20:19:56] [INFO]   OK UPSERT->UPDATE 134|56|-1 Action=UPSERT IndexID=16
+[2026-06-04 20:19:56] [INFO]   Triggers (SHS1) IndexID=16 : -1 +1 (3)
+[2026-06-04 20:19:56] [INFO]   Reuse Query 'FMS_FullName' (IntrnalKey=278), body updated
+[2026-06-04 20:19:56] [INFO]   OK UPSERT->UPDATE 134|7|-1 Action=UPSERT IndexID=1
+[2026-06-04 20:19:56] [INFO]   Triggers (SHS1) IndexID=1 : -2 +2 (U_SLD_Fullname, U_SLD_Title)
+[2026-06-04 20:19:56] [ERROR]   FAIL 139|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 139|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 139|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 139|38|U_SLD_T_BeDis Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 140|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 140|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 140|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 140|38|U_SLD_T_BeDis Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 141|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 141|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 141|38|31 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 141|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 141|38|U_SLD_T_BeDis Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 142|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 142|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 142|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 142|38|U_SLD_T_BeDis Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 143|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 143|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 143|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 143|38|U_SLD_T_BeDis Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 149|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 149|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 149|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [ERROR]   FAIL 149|38|U_SLD_T_BeDis Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:56] [INFO]   Reuse Query 'ItemSeries' (IntrnalKey=296), body updated
+[2026-06-04 20:19:56] [INFO]   OK UPSERT->UPDATE 150|1320002059|-1 Action=UPSERT IndexID=20
+[2026-06-04 20:19:56] [INFO]   Triggers (SHS1) IndexID=20 : -1 +1 (3)
+[2026-06-04 20:19:56] [ERROR]   FAIL 179|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 179|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 179|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 179|38|U_SLD_T_BeDis Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 18|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 180|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 181|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 181|38|21 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 181|38|U_SLD_Dis_Amount Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 181|38|U_SLD_T_BeDis Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 182|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'ItemGroup' (IntrnalKey=297), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 185|4|U_SLD_ItemSeries Action=UPSERT IndexID=19
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'BPGroup' (IntrnalKey=294), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 185|4|U_SLD_Series Action=UPSERT IndexID=17
+[2026-06-04 20:19:57] [ERROR]   FAIL 203|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [ERROR]   FAIL 204|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'JE BP Address (ที่อยู่คู่ค้า)' (IntrnalKey=282), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_BPAds Action=UPSERT IndexID=5
+[2026-06-04 20:19:57] [INFO]   Triggers (SHS1) IndexID=5 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'JE_Select BP Name (ชื่อคู่ค้า)' (IntrnalKey=279), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_CardName Action=UPSERT IndexID=2
+[2026-06-04 20:19:57] [INFO]   Triggers (SHS1) IndexID=2 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'JE_Select Tax Id (เลขประจำตัวผู้เสียภาษี)' (IntrnalKey=280), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_LBPTaxID Action=UPSERT IndexID=3
+[2026-06-04 20:19:57] [INFO]   Triggers (SHS1) IndexID=3 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'JE Select BP Branch (สาขาคู่ค้า)' (IntrnalKey=281), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_LPBranch Action=UPSERT IndexID=4
+[2026-06-04 20:19:57] [INFO]   Triggers (SHS1) IndexID=4 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'JE Cal WhBaseAmount (ฐานภาษีหัก ณ ที่จ่าย)' (IntrnalKey=284), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_WTBaseAmt Action=UPSERT IndexID=7
+[2026-06-04 20:19:57] [INFO]   Triggers (SHS1) IndexID=7 : -1 +1 (U_SLD_WTCode)
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'JE_JV Select WH Code (รหัสภาษีหัก ณ ที่จ่าย)' (IntrnalKey=283), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_WTCode Action=UPSERT IndexID=6
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'JV BP Address (ที่อยู่คู่ค้า)' (IntrnalKey=288), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_BPAds Action=UPSERT IndexID=11
+[2026-06-04 20:19:57] [INFO]   Triggers (SHS1) IndexID=11 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:19:57] [INFO]   Reuse Query 'JV_Select BP Name (ชื่อคู่ค้า)' (IntrnalKey=285), body updated
+[2026-06-04 20:19:57] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_CardName Action=UPSERT IndexID=8
+[2026-06-04 20:19:58] [INFO]   Triggers (SHS1) IndexID=8 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:19:58] [INFO]   Reuse Query 'JV_Select Tax Id (เลขประจำตัวผู้เสียภาษี)' (IntrnalKey=286), body updated
+[2026-06-04 20:19:58] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_LBPTaxID Action=UPSERT IndexID=9
+[2026-06-04 20:19:58] [INFO]   Triggers (SHS1) IndexID=9 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:19:58] [INFO]   Reuse Query 'JV_Select BP Branch (สาขาคู่ค้า)' (IntrnalKey=287), body updated
+[2026-06-04 20:19:58] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_LPBranch Action=UPSERT IndexID=10
+[2026-06-04 20:19:58] [INFO]   Triggers (SHS1) IndexID=10 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:19:58] [INFO]   Reuse Query 'JV Cal WhBaseAmount (ฐานภาษีหัก ณ ที่จ่าย)' (IntrnalKey=289), body updated
+[2026-06-04 20:19:58] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_WTBaseAmt Action=UPSERT IndexID=13
+[2026-06-04 20:19:58] [INFO]   Triggers (SHS1) IndexID=13 : -1 +1 (U_SLD_WTCode)
+[2026-06-04 20:19:58] [INFO]   Reuse Query 'JE_JV Select WH Code (รหัสภาษีหัก ณ ที่จ่าย)' (IntrnalKey=283), body updated
+[2026-06-04 20:19:58] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_WTCode Action=UPSERT IndexID=12
+[2026-06-04 20:19:58] [ERROR]   FAIL 540000841|222|-1 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:58] [ERROR]   FAIL 65300|38|31 Action=UPSERT : Exception calling "ExecuteScalar" with "0" argument(s): "Cannot insert the value NULL into column 'IntrnalKey', table 'SBO_SDA_Key.dbo.OUQR'; column does not allow nulls. INSERT fails."
+[2026-06-04 20:19:58] [INFO]   Reuse Query 'Acc_Issue' (IntrnalKey=290), body updated
+[2026-06-04 20:19:58] [INFO]   OK UPSERT->UPDATE 720|13|57 Action=UPSERT IndexID=15
+[2026-06-04 20:19:58] [INFO]   Triggers (SHS1) IndexID=15 : -1 +1 (1)
+[2026-06-04 20:19:58] [INFO]   Reuse Query 'Acc_Receive' (IntrnalKey=291), body updated
+[2026-06-04 20:19:58] [INFO]   OK UPSERT->UPDATE 721|13|57 Action=UPSERT IndexID=14
+[2026-06-04 20:19:58] [INFO]   Triggers (SHS1) IndexID=14 : -1 +1 (1)
+[2026-06-04 20:19:58] [INFO] Committed. OK=20 FAIL=45 SKIP=0
+[2026-06-04 20:23:20] [INFO] === Start UDV Import (SQL Direct) ===
+[2026-06-04 20:23:20] [INFO] MapFile: C:\GitHub\SBO_Warit\Form-Layout\ImportUDV\Config\UDV_Export_20260529_113524.csv  (111 CSV rows)
+[2026-06-04 20:23:20] [INFO] DryRun : False
+[2026-06-04 20:23:20] [INFO] Grouped to 65 unique CSHS key(s)
+[2026-06-04 20:23:20] [INFO] Connected to SQL: 172.20.10.4 / SBO_SDA_Key
+[2026-06-04 20:23:20] [INFO] Pre-loaded 46 existing CSHS rows
+[2026-06-04 20:23:20] [INFO] Pre-loaded 199 OUQR queries
+[2026-06-04 20:23:20] [INFO] Current MAX(IndexID)=98
+[2026-06-04 20:23:20] [INFO] Current MAX(IntrnalKey)=300
+[2026-06-04 20:23:20] [INFO]   Created Query 'FMS_Owner' IntrnalKey=301
+[2026-06-04 20:23:20] [INFO]   OK UPSERT->ADD 133|222|-1 Action=UPSERT IndexID=99
+[2026-06-04 20:23:20] [INFO]   Triggers (SHS1) IndexID=99 : -0 +1 (12)
+[2026-06-04 20:23:20] [INFO]   Created Query 'FMS_LineTotal' IntrnalKey=302
+[2026-06-04 20:23:20] [INFO]   OK UPSERT->UPDATE 133|38|21 Action=UPSERT IndexID=53
+[2026-06-04 20:23:20] [INFO]   Triggers (SHS1) IndexID=53 : -0 +2 (U_SLD_Dis_Amount, U_SLD_T_BeDis)
+[2026-06-04 20:23:21] [INFO]   Created Query 'FMS_Get_Header_Project' IntrnalKey=303
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->ADD 133|38|31 Action=UPSERT IndexID=100
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=100 : -0 +1 (1)
+[2026-06-04 20:23:21] [INFO]   Created Query 'FMS_Discount' IntrnalKey=304
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->ADD 133|38|U_SLD_Dis_Amount Action=UPSERT IndexID=101
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=101 : -0 +4 (11, 14, 15, U_SLD_Check)
+[2026-06-04 20:23:21] [INFO]   Created Query 'FMS_Price_Total' IntrnalKey=305
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->ADD 133|38|U_SLD_T_BeDis Action=UPSERT IndexID=102
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=102 : -0 +2 (11, 14)
+[2026-06-04 20:23:21] [INFO]   Reuse Query 'BPSeries' (IntrnalKey=295), body updated
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->UPDATE 134|1320002080|-1 Action=UPSERT IndexID=18
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=18 : -1 +1 (3)
+[2026-06-04 20:23:21] [INFO]   Reuse Query 'BPAccount' (IntrnalKey=292), body updated
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->UPDATE 134|56|-1 Action=UPSERT IndexID=16
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=16 : -1 +1 (3)
+[2026-06-04 20:23:21] [INFO]   Reuse Query 'FMS_FullName' (IntrnalKey=278), body updated
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->UPDATE 134|7|-1 Action=UPSERT IndexID=1
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=1 : -2 +2 (U_SLD_Fullname, U_SLD_Title)
+[2026-06-04 20:23:21] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->ADD 139|222|-1 Action=UPSERT IndexID=103
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=103 : -0 +1 (12)
+[2026-06-04 20:23:21] [INFO]   Reuse Query 'FMS_LineTotal' (IntrnalKey=302), body updated
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->UPDATE 139|38|21 Action=UPSERT IndexID=37
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=37 : -0 +2 (U_SLD_Dis_Amount, U_SLD_T_BeDis)
+[2026-06-04 20:23:21] [INFO]   Reuse Query 'FMS_Discount' (IntrnalKey=304), body updated
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->ADD 139|38|U_SLD_Dis_Amount Action=UPSERT IndexID=104
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=104 : -0 +4 (11, 14, 15, U_SLD_Check)
+[2026-06-04 20:23:21] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=305), body updated
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->ADD 139|38|U_SLD_T_BeDis Action=UPSERT IndexID=105
+[2026-06-04 20:23:21] [INFO]   Triggers (SHS1) IndexID=105 : -0 +2 (11, 14)
+[2026-06-04 20:23:21] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:21] [INFO]   OK UPSERT->ADD 140|222|-1 Action=UPSERT IndexID=106
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=106 : -0 +1 (12)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_LineTotal' (IntrnalKey=302), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 140|38|21 Action=UPSERT IndexID=107
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=107 : -0 +2 (U_SLD_Dis_Amount, U_SLD_T_BeDis)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_Discount' (IntrnalKey=304), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 140|38|U_SLD_Dis_Amount Action=UPSERT IndexID=108
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=108 : -0 +4 (11, 14, 15, U_SLD_Check)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=305), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 140|38|U_SLD_T_BeDis Action=UPSERT IndexID=109
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=109 : -0 +2 (11, 14)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 141|222|-1 Action=UPSERT IndexID=110
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=110 : -0 +1 (12)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_LineTotal' (IntrnalKey=302), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->UPDATE 141|38|21 Action=UPSERT IndexID=42
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=42 : -0 +2 (U_SLD_Dis_Amount, U_SLD_T_BeDis)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_Get_Header_Project' (IntrnalKey=303), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 141|38|31 Action=UPSERT IndexID=111
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=111 : -0 +1 (1)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_Discount' (IntrnalKey=304), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 141|38|U_SLD_Dis_Amount Action=UPSERT IndexID=112
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=112 : -0 +4 (11, 14, 15, U_SLD_Check)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=305), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 141|38|U_SLD_T_BeDis Action=UPSERT IndexID=113
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=113 : -0 +2 (11, 14)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 142|222|-1 Action=UPSERT IndexID=114
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=114 : -0 +1 (12)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_LineTotal' (IntrnalKey=302), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 142|38|21 Action=UPSERT IndexID=115
+[2026-06-04 20:23:22] [INFO]   Triggers (SHS1) IndexID=115 : -0 +2 (U_SLD_Dis_Amount, U_SLD_T_BeDis)
+[2026-06-04 20:23:22] [INFO]   Reuse Query 'FMS_Discount' (IntrnalKey=304), body updated
+[2026-06-04 20:23:22] [INFO]   OK UPSERT->ADD 142|38|U_SLD_Dis_Amount Action=UPSERT IndexID=116
+[2026-06-04 20:23:23] [INFO]   Triggers (SHS1) IndexID=116 : -0 +4 (11, 14, 15, U_SLD_Check)
+[2026-06-04 20:23:23] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=305), body updated
+[2026-06-04 20:23:23] [INFO]   OK UPSERT->ADD 142|38|U_SLD_T_BeDis Action=UPSERT IndexID=117
+[2026-06-04 20:23:23] [INFO]   Triggers (SHS1) IndexID=117 : -0 +2 (11, 14)
+[2026-06-04 20:23:23] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:23] [INFO]   OK UPSERT->ADD 143|222|-1 Action=UPSERT IndexID=118
+[2026-06-04 20:23:23] [INFO]   Triggers (SHS1) IndexID=118 : -0 +1 (12)
+[2026-06-04 20:23:23] [INFO]   Reuse Query 'FMS_LineTotal' (IntrnalKey=302), body updated
+[2026-06-04 20:23:23] [INFO]   OK UPSERT->UPDATE 143|38|21 Action=UPSERT IndexID=32
+[2026-06-04 20:23:23] [INFO]   Triggers (SHS1) IndexID=32 : -0 +2 (U_SLD_Dis_Amount, U_SLD_T_BeDis)
+[2026-06-04 20:23:23] [INFO]   Reuse Query 'FMS_Discount' (IntrnalKey=304), body updated
+[2026-06-04 20:23:23] [INFO]   OK UPSERT->ADD 143|38|U_SLD_Dis_Amount Action=UPSERT IndexID=119
+[2026-06-04 20:23:23] [INFO]   Triggers (SHS1) IndexID=119 : -0 +4 (11, 14, 15, U_SLD_Check)
+[2026-06-04 20:23:23] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=305), body updated
+[2026-06-04 20:23:23] [INFO]   OK UPSERT->ADD 143|38|U_SLD_T_BeDis Action=UPSERT IndexID=120
+[2026-06-04 20:23:23] [INFO]   Triggers (SHS1) IndexID=120 : -0 +2 (11, 14)
+[2026-06-04 20:23:23] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:23] [INFO]   OK UPSERT->ADD 149|222|-1 Action=UPSERT IndexID=121
+[2026-06-04 20:23:23] [INFO]   Triggers (SHS1) IndexID=121 : -0 +1 (12)
+[2026-06-04 20:23:23] [INFO]   Reuse Query 'FMS_LineTotal' (IntrnalKey=302), body updated
+[2026-06-04 20:23:23] [INFO]   OK UPSERT->UPDATE 149|38|21 Action=UPSERT IndexID=63
+[2026-06-04 20:23:23] [INFO]   Triggers (SHS1) IndexID=63 : -0 +2 (U_SLD_Dis_Amount, U_SLD_T_BeDis)
+[2026-06-04 20:23:23] [INFO]   Reuse Query 'FMS_Discount' (IntrnalKey=304), body updated
+[2026-06-04 20:23:23] [INFO]   OK UPSERT->ADD 149|38|U_SLD_Dis_Amount Action=UPSERT IndexID=122
+[2026-06-04 20:23:23] [INFO]   Triggers (SHS1) IndexID=122 : -0 +4 (11, 14, 15, U_SLD_Check)
+[2026-06-04 20:23:23] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=305), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 149|38|U_SLD_T_BeDis Action=UPSERT IndexID=123
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=123 : -0 +2 (11, 14)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'ItemSeries' (IntrnalKey=296), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->UPDATE 150|1320002059|-1 Action=UPSERT IndexID=20
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=20 : -1 +1 (3)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 179|222|-1 Action=UPSERT IndexID=124
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=124 : -0 +1 (12)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_LineTotal' (IntrnalKey=302), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->UPDATE 179|38|21 Action=UPSERT IndexID=58
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=58 : -0 +2 (U_SLD_Dis_Amount, U_SLD_T_BeDis)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_Discount' (IntrnalKey=304), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 179|38|U_SLD_Dis_Amount Action=UPSERT IndexID=125
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=125 : -0 +4 (11, 14, 15, U_SLD_Check)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=305), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 179|38|U_SLD_T_BeDis Action=UPSERT IndexID=126
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=126 : -0 +2 (11, 14)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 18|222|-1 Action=UPSERT IndexID=127
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=127 : -0 +1 (12)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 180|222|-1 Action=UPSERT IndexID=128
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=128 : -0 +1 (12)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 181|222|-1 Action=UPSERT IndexID=129
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=129 : -0 +1 (12)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_LineTotal' (IntrnalKey=302), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 181|38|21 Action=UPSERT IndexID=130
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=130 : -0 +2 (U_SLD_Dis_Amount, U_SLD_T_BeDis)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_Discount' (IntrnalKey=304), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 181|38|U_SLD_Dis_Amount Action=UPSERT IndexID=131
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=131 : -0 +4 (11, 14, 15, U_SLD_Check)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_Price_Total' (IntrnalKey=305), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 181|38|U_SLD_T_BeDis Action=UPSERT IndexID=132
+[2026-06-04 20:23:24] [INFO]   Triggers (SHS1) IndexID=132 : -0 +2 (11, 14)
+[2026-06-04 20:23:24] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:24] [INFO]   OK UPSERT->ADD 182|222|-1 Action=UPSERT IndexID=133
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=133 : -0 +1 (12)
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'ItemGroup' (IntrnalKey=297), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 185|4|U_SLD_ItemSeries Action=UPSERT IndexID=19
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'BPGroup' (IntrnalKey=294), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 185|4|U_SLD_Series Action=UPSERT IndexID=17
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->ADD 203|222|-1 Action=UPSERT IndexID=134
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=134 : -0 +1 (12)
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->ADD 204|222|-1 Action=UPSERT IndexID=135
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=135 : -0 +1 (12)
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'JE BP Address (ที่อยู่คู่ค้า)' (IntrnalKey=282), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_BPAds Action=UPSERT IndexID=5
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=5 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'JE_Select BP Name (ชื่อคู่ค้า)' (IntrnalKey=279), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_CardName Action=UPSERT IndexID=2
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=2 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'JE_Select Tax Id (เลขประจำตัวผู้เสียภาษี)' (IntrnalKey=280), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_LBPTaxID Action=UPSERT IndexID=3
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=3 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'JE Select BP Branch (สาขาคู่ค้า)' (IntrnalKey=281), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_LPBranch Action=UPSERT IndexID=4
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=4 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'JE Cal WhBaseAmount (ฐานภาษีหัก ณ ที่จ่าย)' (IntrnalKey=284), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_WTBaseAmt Action=UPSERT IndexID=7
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=7 : -1 +1 (U_SLD_WTCode)
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'JE_JV Select WH Code (รหัสภาษีหัก ณ ที่จ่าย)' (IntrnalKey=283), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 392|76|U_SLD_WTCode Action=UPSERT IndexID=6
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'JV BP Address (ที่อยู่คู่ค้า)' (IntrnalKey=288), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_BPAds Action=UPSERT IndexID=11
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=11 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:23:25] [INFO]   Reuse Query 'JV_Select BP Name (ชื่อคู่ค้า)' (IntrnalKey=285), body updated
+[2026-06-04 20:23:25] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_CardName Action=UPSERT IndexID=8
+[2026-06-04 20:23:25] [INFO]   Triggers (SHS1) IndexID=8 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:23:26] [INFO]   Reuse Query 'JV_Select Tax Id (เลขประจำตัวผู้เสียภาษี)' (IntrnalKey=286), body updated
+[2026-06-04 20:23:26] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_LBPTaxID Action=UPSERT IndexID=9
+[2026-06-04 20:23:26] [INFO]   Triggers (SHS1) IndexID=9 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:23:26] [INFO]   Reuse Query 'JV_Select BP Branch (สาขาคู่ค้า)' (IntrnalKey=287), body updated
+[2026-06-04 20:23:26] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_LPBranch Action=UPSERT IndexID=10
+[2026-06-04 20:23:26] [INFO]   Triggers (SHS1) IndexID=10 : -1 +1 (U_SLD_SuppCode)
+[2026-06-04 20:23:26] [INFO]   Reuse Query 'JV Cal WhBaseAmount (ฐานภาษีหัก ณ ที่จ่าย)' (IntrnalKey=289), body updated
+[2026-06-04 20:23:26] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_WTBaseAmt Action=UPSERT IndexID=13
+[2026-06-04 20:23:26] [INFO]   Triggers (SHS1) IndexID=13 : -1 +1 (U_SLD_WTCode)
+[2026-06-04 20:23:26] [INFO]   Reuse Query 'JE_JV Select WH Code (รหัสภาษีหัก ณ ที่จ่าย)' (IntrnalKey=283), body updated
+[2026-06-04 20:23:26] [INFO]   OK UPSERT->UPDATE 393|76|U_SLD_WTCode Action=UPSERT IndexID=12
+[2026-06-04 20:23:26] [INFO]   Reuse Query 'FMS_Owner' (IntrnalKey=301), body updated
+[2026-06-04 20:23:26] [INFO]   OK UPSERT->ADD 540000841|222|-1 Action=UPSERT IndexID=136
+[2026-06-04 20:23:26] [INFO]   Triggers (SHS1) IndexID=136 : -0 +1 (12)
+[2026-06-04 20:23:26] [INFO]   Reuse Query 'FMS_Get_Header_Project' (IntrnalKey=303), body updated
+[2026-06-04 20:23:26] [INFO]   OK UPSERT->ADD 65300|38|31 Action=UPSERT IndexID=137
+[2026-06-04 20:23:26] [INFO]   Triggers (SHS1) IndexID=137 : -0 +1 (1)
+[2026-06-04 20:23:26] [INFO]   Reuse Query 'Acc_Issue' (IntrnalKey=290), body updated
+[2026-06-04 20:23:26] [INFO]   OK UPSERT->UPDATE 720|13|57 Action=UPSERT IndexID=15
+[2026-06-04 20:23:26] [INFO]   Triggers (SHS1) IndexID=15 : -1 +1 (1)
+[2026-06-04 20:23:26] [INFO]   Reuse Query 'Acc_Receive' (IntrnalKey=291), body updated
+[2026-06-04 20:23:26] [INFO]   OK UPSERT->UPDATE 721|13|57 Action=UPSERT IndexID=14
+[2026-06-04 20:23:26] [INFO]   Triggers (SHS1) IndexID=14 : -1 +1 (1)
+[2026-06-04 20:23:27] [INFO] Committed. OK=65 FAIL=0 SKIP=0

@@ -170,6 +170,11 @@ try {
     $nextIdx = [int]$cmd.ExecuteScalar()
     Write-Log "Current MAX(IndexID)=$nextIdx"
 
+    # OUQR.IntrnalKey is NOT identity in SAP B1 — manage it manually.
+    $cmd.CommandText = "SELECT ISNULL(MAX(IntrnalKey),0) FROM OUQR"
+    $nextQKey = [int]$cmd.ExecuteScalar()
+    Write-Log "Current MAX(IntrnalKey)=$nextQKey"
+
     # ------------------------------------------------------------
     # Transaction
     # ------------------------------------------------------------
@@ -212,15 +217,18 @@ try {
                         [void]$uq.ExecuteNonQuery()
                         Write-Log "  Reuse Query '$qname' (IntrnalKey=$queryId), body updated"
                     } else {
-                        # Insert new OUQR
+                        # Insert new OUQR (supply IntrnalKey manually)
                         $cat = if ($r.QueryCategory) { [int]$r.QueryCategory } else { -1 }
+                        $nextQKey++
+                        $queryId = $nextQKey
                         $ins = $conn.CreateCommand()
                         $ins.Transaction = $tx
-                        $ins.CommandText = "INSERT INTO OUQR (QName, QString, QCategory) OUTPUT INSERTED.IntrnalKey VALUES (@n, @s, @c)"
+                        $ins.CommandText = "INSERT INTO OUQR (IntrnalKey, QName, QString, QCategory) VALUES (@k, @n, @s, @c)"
+                        [void]$ins.Parameters.AddWithValue("@k", $queryId)
                         [void]$ins.Parameters.AddWithValue("@n", $qname)
                         [void]$ins.Parameters.AddWithValue("@s", $body)
                         [void]$ins.Parameters.AddWithValue("@c", $cat)
-                        $queryId = [int]$ins.ExecuteScalar()
+                        [void]$ins.ExecuteNonQuery()
                         $ouqrMap[$qname] = $queryId
                         Write-Log "  Created Query '$qname' IntrnalKey=$queryId"
                     }
