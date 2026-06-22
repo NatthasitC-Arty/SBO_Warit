@@ -1,0 +1,6 @@
+﻿Action,FormID,ItemID,ColumnID,FMSAction,QueryName,QueryCategory,QueryBody,FixedValue,Refresh,ByField,TriggerID,TriggerColumn,ForceRefresh
+UPSERT,149,38,U_SLD_Ship,Q,FMS_Ship,24,"SELECT T0.[U_SLD_Ship_Name], T0.[Name] FROM [dbo].[@SLDT_SHIP_WARIT]  T0",,N,N,,,N
+UPSERT,139,38,U_SLD_Ship,Q,FMS_Ship,24,"SELECT T0.[U_SLD_Ship_Name], T0.[Name] FROM [dbo].[@SLDT_SHIP_WARIT]  T0",,N,N,,,N
+UPSERT,140,38,U_SLD_Ship,Q,FMS_Ship,24,"SELECT T0.[U_SLD_Ship_Name], T0.[Name] FROM [dbo].[@SLDT_SHIP_WARIT]  T0",,N,N,,,N
+UPSERT,133,38,U_SLD_Ship,Q,FMS_Ship,24,"SELECT T0.[U_SLD_Ship_Name], T0.[Name] FROM [dbo].[@SLDT_SHIP_WARIT]  T0",,N,N,,,N
+UPSERT,179,38,U_SLD_Ship,Q,FMS_Ship,24,"SELECT T0.[U_SLD_Ship_Name], T0.[Name] FROM [dbo].[@SLDT_SHIP_WARIT]  T0",,N,N,,,N

@@ -7,10 +7,10 @@ REM  the values for your environment. _settings.bat is gitignored.
 REM ============================================================
 
 REM --- Database (also used as DI API credentials) ---
-set SERVER=172.20.10.4
-set COMPANYDB=SBO_SDA
+set SERVER=192.168.0.216
+set COMPANYDB=SBO_WARIT_Real
 set DBUSER=sa
-set DBPASSWORD=1q2w3e4r@
+set DBPASSWORD=Sdagroup1
 
 REM --- SAP B1 application login (required by DI API) ---
 REM  Leave SAPPASSWORD blank to reuse DBPASSWORD.
