@@ -1,6 +1,0 @@
-# Logs and backups
-Import_SQL_Log.txt
-Backups/
-
-# Scripts contain credentials - DO NOT COMMIT
-# (Backup-RDOC.ps1, Import_SQL_Direct.ps1, Rollback-Layouts.ps1)
