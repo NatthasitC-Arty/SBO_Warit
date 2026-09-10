@@ -1,0 +1,14 @@
+﻿[10:12:50][INFO] === Apply-SqlFixes  mode=APPLY  root=C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)  files=2 ===
+[10:12:53][HIT]     [main] AR_SQ: ADHOCx2  (len 13899 -> 13987)
+[10:12:53][INFO] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[10:12:54][OK]     verified on disk: 1 table(s)
+[10:12:54][INFO] ==============================================================
+[10:12:54][INFO]   ADHOC                  tables=1   hits=2
+[10:12:54][INFO] SUMMARY mode=APPLY files=2 touched=1 tables=1 fieldDiff=0 connDiff=0 sqlDiff=0 err=0
+[10:12:54][INFO] === Apply-SqlFixes  mode=APPLY  root=C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)  files=2 ===
+[10:12:56][HIT]     [main] AR_SQ: ADHOCx2  (len 13987 -> 13987)
+[10:12:56][INFO] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[10:12:57][OK]     verified on disk: 1 table(s)
+[10:12:57][INFO] ==============================================================
+[10:12:57][INFO]   ADHOC                  tables=1   hits=2
+[10:12:57][INFO] SUMMARY mode=APPLY files=2 touched=1 tables=1 fieldDiff=0 connDiff=0 sqlDiff=0 err=0

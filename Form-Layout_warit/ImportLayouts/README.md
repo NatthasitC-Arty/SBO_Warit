@@ -109,7 +109,7 @@ ImportLayouts/
 ### 1. Copy ทั้งโฟลเดอร์ไปเครื่องที่จะรัน
 
 ```
-C:\SDA\SDA\Form-Layout\ImportLayouts\
+C:\GitHub\SDA\Form-Layout\ImportLayouts\
 ```
 
 **รันบนเครื่องไหนก็ได้** — SAP Server, SQL Server, เครื่อง Client ที่ใช้ SAP B1, หรือ Laptop ของ implementer ก็ได้ ขอแค่:
@@ -132,7 +132,7 @@ set SERVER=10.10.10.115            ← IP หรือชื่อ SQL Server
 set COMPANYDB=SBO_SDA_MARK1        ← ชื่อ Company DB
 set DBUSER=sa                      ← SQL user (ต้องมีสิทธิ์ INSERT ใน RDOC)
 set DBPASSWORD=YourPassword        ← password
-set RPTROOT=C:\SDA\SDA\Form-Layout ← root folder ที่มีไฟล์ .rpt
+set RPTROOT=C:\GitHub\SDA\Form-Layout ← root folder ที่มีไฟล์ .rpt
 ```
 
 > 📌 **ทุก `Run*.bat` `call _settings.bat` อัตโนมัติ** — เปลี่ยน server/DB/password ที่ไฟล์เดียว ไม่ต้องไปแก้ทุก .bat
@@ -270,7 +270,7 @@ set SYSTEMAUTHOR=System REM Author ที่ป้องกันไว้ (เ�
 ### 🔹 Workflow D: Backup
 
 ```powershell
-cd C:\SDA\SDA\Form-Layout\ImportLayouts
+cd C:\GitHub\SDA\Form-Layout\ImportLayouts
 .\Backup-RDOC.ps1 -Server "10.10.10.115" -CompanyDB "SBO_SDA_MARK1" -DBPassword "YourPassword"
 ```
 
@@ -338,7 +338,7 @@ cd C:\SDA\SDA\Form-Layout\ImportLayouts
 ### Step 1: Copy ทั้งโฟลเดอร์
 
 ```
-C:\SDA\SDA\Form-Layout\ImportLayouts\
+C:\GitHub\SDA\Form-Layout\ImportLayouts\
 ```
 
 ### Step 2: สร้าง / แก้ `_settings.bat` (ที่เดียว)
@@ -515,7 +515,7 @@ Main script dot-sources plugin:
 | `-DBUser` | `sa` | SQL login |
 | `-DBPassword` | `1q2w3e4r` | SQL password |
 | `-MapFile` | Excel path | mapping file |
-| `-RptRoot` | `C:\SDA\SDA\Form-Layout` | base path ของ .rpt |
+| `-RptRoot` | `C:\GitHub\SDA\Form-Layout` | base path ของ .rpt |
 | `-LogFile` | `Import_SQL_Log.txt` | log output |
 | `-Author` | `SDA` | owner ที่ใส่ใน RDOC.Author |
 | `-OnDuplicate` | `Update` | Update / Skip / Insert |

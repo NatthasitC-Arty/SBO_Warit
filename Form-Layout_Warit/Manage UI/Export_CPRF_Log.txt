@@ -1,0 +1,147 @@
+﻿[2026-05-25 18:06:33] [INFO] === Start CPRF Export ===
+[2026-05-25 18:06:33] [INFO] Server   : 10.10.10.115
+[2026-05-25 18:06:33] [INFO] CompanyDB: SBO_Update_UI
+[2026-05-25 18:06:33] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\Manage UI\Scripts\..\Config\CPRF_Export_20260525_180633.csv
+[2026-05-25 18:06:33] [INFO] Connected to SQL: 10.10.10.115 / SBO_Update_UI
+[2026-05-25 18:06:33] [INFO] CPRF columns (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-25 18:06:33] [INFO] Filter: (none)
+[2026-05-25 18:08:57] [INFO] === Start CPRF Export ===
+[2026-05-25 18:08:57] [INFO] Server   : 10.10.10.115
+[2026-05-25 18:08:57] [INFO] CompanyDB: SBO_Update_UI
+[2026-05-25 18:08:57] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\Manage UI\Scripts\..\Config\CPRF_Export_20260525_180857.csv
+[2026-05-25 18:08:57] [INFO] Connected to SQL: 10.10.10.115 / SBO_Update_UI
+[2026-05-25 18:08:57] [INFO] CPRF columns (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-25 18:08:57] [INFO] Filter: (none)
+[2026-05-25 18:11:19] [INFO] === Start CPRF Export ===
+[2026-05-25 18:11:19] [INFO] Server   : 10.10.10.115
+[2026-05-25 18:11:19] [INFO] CompanyDB: SBO_Update_UI
+[2026-05-25 18:11:19] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\Manage UI\Scripts\..\Config\CPRF_Export_20260525_181119.csv
+[2026-05-25 18:11:19] [INFO] Connected to SQL: 10.10.10.115 / SBO_Update_UI
+[2026-05-25 18:11:19] [INFO] CPRF columns (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-25 18:11:19] [INFO] Filter: (none)
+[2026-05-25 18:11:19] [INFO] SQL: SELECT [FormID], [ItemID], [ColID], [Width], [VisInForm], [VisualIndx], [EditInForm], [VisInExpnd], [ExpandIndx], [EditInEXP], [Folded], [UserSign], [ExtDisable], [ExtInvsbl], [TPLId], [TableName], [ItemUID] FROM CPRF ORDER BY FormID, ItemID, ColID
+[2026-05-25 18:11:19] [INFO] Executing reader (timeout=180 s)...
+[2026-05-25 18:11:20] [INFO] Reader opened. Iterating rows...
+[2026-05-25 18:11:20] [INFO]   ...read 5000 rows so far
+[2026-05-25 18:11:21] [INFO]   ...read 10000 rows so far
+[2026-05-25 18:11:21] [INFO]   ...read 15000 rows so far
+[2026-05-25 18:11:22] [INFO]   ...read 20000 rows so far
+[2026-05-25 18:11:22] [INFO]   ...read 25000 rows so far
+[2026-05-25 18:11:22] [INFO]   ...read 30000 rows so far
+[2026-05-25 18:11:23] [INFO]   ...read 35000 rows so far
+[2026-05-25 18:11:23] [INFO]   ...read 40000 rows so far
+[2026-05-25 18:11:24] [INFO]   ...read 45000 rows so far
+[2026-05-25 18:11:24] [INFO]   ...read 50000 rows so far
+[2026-05-25 18:11:25] [INFO]   ...read 55000 rows so far
+[2026-05-25 18:11:25] [INFO]   ...read 60000 rows so far
+[2026-05-25 18:11:26] [INFO]   ...read 65000 rows so far
+[2026-05-25 18:11:26] [INFO]   ...read 70000 rows so far
+[2026-05-25 18:11:27] [INFO]   ...read 75000 rows so far
+[2026-05-25 18:11:27] [INFO]   ...read 80000 rows so far
+[2026-05-25 18:11:28] [INFO]   ...read 85000 rows so far
+[2026-05-25 18:11:28] [INFO]   ...read 90000 rows so far
+[2026-05-25 18:11:29] [INFO]   ...read 95000 rows so far
+[2026-05-25 18:11:29] [INFO]   ...read 100000 rows so far
+[2026-05-25 18:11:29] [INFO]   ...read 105000 rows so far
+[2026-05-25 18:11:30] [INFO]   ...read 110000 rows so far
+[2026-05-25 18:11:31] [INFO]   ...read 115000 rows so far
+[2026-05-25 18:11:31] [INFO]   ...read 120000 rows so far
+[2026-05-25 18:11:32] [INFO]   ...read 125000 rows so far
+[2026-05-25 18:11:32] [INFO]   ...read 130000 rows so far
+[2026-05-25 18:11:33] [INFO]   ...read 135000 rows so far
+[2026-05-25 18:11:33] [INFO]   ...read 140000 rows so far
+[2026-05-25 18:11:34] [INFO]   ...read 145000 rows so far
+[2026-05-25 18:11:34] [INFO]   ...read 150000 rows so far
+[2026-05-25 18:11:34] [INFO]   ...read 155000 rows so far
+[2026-05-25 18:11:35] [INFO]   ...read 160000 rows so far
+[2026-05-25 18:11:35] [INFO]   ...read 165000 rows so far
+[2026-05-25 18:11:36] [INFO]   ...read 170000 rows so far
+[2026-05-25 18:11:36] [INFO]   ...read 175000 rows so far
+[2026-05-25 18:11:37] [INFO]   ...read 180000 rows so far
+[2026-05-25 18:11:37] [INFO]   ...read 185000 rows so far
+[2026-05-25 18:11:38] [INFO]   ...read 190000 rows so far
+[2026-05-25 18:11:38] [INFO]   ...read 195000 rows so far
+[2026-05-25 18:11:39] [INFO]   ...read 200000 rows so far
+[2026-05-25 18:11:39] [INFO]   ...read 205000 rows so far
+[2026-05-25 18:11:40] [INFO]   ...read 210000 rows so far
+[2026-05-25 18:11:41] [INFO]   ...read 215000 rows so far
+[2026-05-25 18:11:41] [INFO]   ...read 220000 rows so far
+[2026-05-25 18:11:42] [INFO]   ...read 225000 rows so far
+[2026-05-25 18:11:42] [INFO]   ...read 230000 rows so far
+[2026-05-25 18:11:42] [INFO]   ...read 235000 rows so far
+[2026-05-25 18:11:43] [INFO]   ...read 240000 rows so far
+[2026-05-25 18:11:43] [INFO]   ...read 245000 rows so far
+[2026-05-25 18:11:44] [INFO]   ...read 250000 rows so far
+[2026-05-25 18:11:44] [INFO]   ...read 255000 rows so far
+[2026-05-25 18:11:45] [INFO]   ...read 260000 rows so far
+[2026-05-25 18:11:46] [INFO]   ...read 265000 rows so far
+[2026-05-25 18:11:47] [INFO]   ...read 270000 rows so far
+[2026-05-25 18:11:48] [INFO]   ...read 275000 rows so far
+[2026-05-25 18:11:48] [INFO]   ...read 280000 rows so far
+[2026-05-25 18:11:49] [INFO]   ...read 285000 rows so far
+[2026-05-25 18:11:50] [INFO]   ...read 290000 rows so far
+[2026-05-25 18:11:51] [INFO]   ...read 295000 rows so far
+[2026-05-25 18:11:51] [INFO]   ...read 300000 rows so far
+[2026-05-25 18:11:51] [INFO]   ...read 305000 rows so far
+[2026-05-25 18:11:52] [INFO]   ...read 310000 rows so far
+[2026-05-25 18:11:53] [INFO]   ...read 315000 rows so far
+[2026-05-25 18:11:54] [INFO]   ...read 320000 rows so far
+[2026-05-25 18:11:54] [INFO]   ...read 325000 rows so far
+[2026-05-25 18:11:55] [INFO]   ...read 330000 rows so far
+[2026-05-25 18:11:55] [INFO]   ...read 335000 rows so far
+[2026-05-25 18:11:56] [INFO]   ...read 340000 rows so far
+[2026-05-25 18:11:57] [INFO]   ...read 345000 rows so far
+[2026-05-25 18:11:58] [INFO]   ...read 350000 rows so far
+[2026-05-25 18:11:58] [INFO]   ...read 355000 rows so far
+[2026-05-25 18:11:59] [INFO]   ...read 360000 rows so far
+[2026-05-25 18:12:00] [INFO]   ...read 365000 rows so far
+[2026-05-25 18:12:01] [INFO]   ...read 370000 rows so far
+[2026-05-25 18:12:01] [INFO]   ...read 375000 rows so far
+[2026-05-25 18:12:02] [INFO]   ...read 380000 rows so far
+[2026-05-25 18:12:02] [INFO]   ...read 385000 rows so far
+[2026-05-25 18:12:03] [INFO]   ...read 390000 rows so far
+[2026-05-25 18:12:04] [INFO]   ...read 395000 rows so far
+[2026-05-25 18:12:04] [INFO]   ...read 400000 rows so far
+[2026-05-25 18:12:06] [INFO]   ...read 405000 rows so far
+[2026-05-25 18:12:06] [INFO]   ...read 410000 rows so far
+[2026-05-25 18:12:07] [INFO]   ...read 415000 rows so far
+[2026-05-25 18:12:07] [INFO]   ...read 420000 rows so far
+[2026-05-25 18:12:08] [INFO]   ...read 425000 rows so far
+[2026-05-25 18:12:10] [INFO]   ...read 430000 rows so far
+[2026-05-25 18:12:10] [INFO]   ...read 435000 rows so far
+[2026-05-25 18:12:11] [INFO]   ...read 440000 rows so far
+[2026-05-25 18:12:12] [INFO]   ...read 445000 rows so far
+[2026-05-25 18:12:12] [INFO]   ...read 450000 rows so far
+[2026-05-25 18:12:13] [INFO]   ...read 455000 rows so far
+[2026-05-25 18:12:13] [INFO]   ...read 460000 rows so far
+[2026-05-25 18:12:15] [INFO]   ...read 465000 rows so far
+[2026-05-25 18:12:15] [INFO]   ...read 470000 rows so far
+[2026-05-25 18:12:16] [INFO]   ...read 475000 rows so far
+[2026-05-25 18:12:17] [INFO]   ...read 480000 rows so far
+[2026-05-25 18:12:17] [INFO]   ...read 485000 rows so far
+[2026-05-25 18:12:18] [INFO]   ...read 490000 rows so far
+[2026-05-25 18:12:18] [INFO]   ...read 495000 rows so far
+[2026-05-25 18:12:19] [INFO]   ...read 500000 rows so far
+[2026-05-25 18:12:22] [INFO]   ...read 505000 rows so far
+[2026-05-25 18:14:02] [INFO] === Start CPRF Export ===
+[2026-05-25 18:14:02] [INFO] Server   : 10.10.10.115
+[2026-05-25 18:14:02] [INFO] CompanyDB: SBO_Update_UI
+[2026-05-25 18:14:02] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\Manage UI\Scripts\..\Config\CPRF_Export_20260525_181402.csv
+[2026-05-25 18:14:02] [INFO] Connected to SQL: 10.10.10.115 / SBO_Update_UI
+[2026-05-25 18:14:02] [INFO] CPRF columns (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-25 18:14:02] [INFO] Filter:  WHERE FormID = @fid
+[2026-05-25 18:14:02] [INFO] SQL: SELECT [FormID], [ItemID], [ColID], [Width], [VisInForm], [VisualIndx], [EditInForm], [VisInExpnd], [ExpandIndx], [EditInEXP], [Folded], [UserSign], [ExtDisable], [ExtInvsbl], [TPLId], [TableName], [ItemUID] FROM CPRF WHERE FormID = @fid ORDER BY FormID, ItemID, ColID
+[2026-05-25 18:14:02] [INFO] Executing reader (timeout=180 s)...
+[2026-05-25 18:14:02] [INFO] Reader opened. Iterating rows...
+[2026-05-25 18:14:03] [INFO]   ...read 5000 rows so far
+[2026-05-25 18:14:03] [INFO]   ...read 10000 rows so far
+[2026-05-25 18:14:04] [INFO]   ...read 15000 rows so far
+[2026-05-25 18:14:04] [INFO]   ...read 20000 rows so far
+[2026-05-25 18:14:04] [INFO]   ...read 25000 rows so far
+[2026-05-25 18:14:05] [INFO]   ...read 30000 rows so far
+[2026-05-25 18:14:05] [INFO]   ...read 35000 rows so far
+[2026-05-25 18:14:06] [INFO]   ...read 40000 rows so far
+[2026-05-25 18:14:06] [INFO]   ...read 45000 rows so far
+[2026-05-25 18:14:07] [INFO] Read 49796 CPRF rows
+[2026-05-25 18:14:07] [INFO] === Done. Exported 49796 record(s) ===
+[2026-05-25 18:14:07] [INFO] Output: C:\GitHub\SDA\Form-Layout\Manage UI\Scripts\..\Config\CPRF_Export_20260525_181402.csv

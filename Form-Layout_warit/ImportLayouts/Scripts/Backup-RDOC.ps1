@@ -8,7 +8,7 @@ param(
     [string]$CompanyDB  = "SBO_SDA",
     [string]$DBUser     = "sa",
     [string]$DBPassword = "1q2w3e4r",
-    [string]$OutDir     = "C:\SDA\SDA\Form-Layout\ImportLayouts\Backups"
+    [string]$OutDir     = "C:\GitHub\SDA\Form-Layout\ImportLayouts\Backups"
 )
 
 if (-not (Test-Path $OutDir)) { New-Item -ItemType Directory -Path $OutDir -Force | Out-Null }

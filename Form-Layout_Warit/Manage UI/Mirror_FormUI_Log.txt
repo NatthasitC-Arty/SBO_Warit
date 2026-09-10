@@ -1,0 +1,76 @@
+﻿[2026-05-25 18:33:59] [INFO] === Mirror Form UI ===
+[2026-05-25 18:34:00] [INFO] FormID         : 139
+[2026-05-25 18:34:00] [INFO] Source         : UserSign=1 TPLId=34
+[2026-05-25 18:34:00] [INFO] Target         : UserSign=26 TPLId=3
+[2026-05-25 18:34:00] [INFO] DryRun         : True
+[2026-05-25 18:34:00] [INFO] Connected: 10.10.10.115 / SBO_Update_UI
+[2026-05-25 18:34:00] [INFO] CPRF cols (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-25 18:34:00] [INFO] Source rows: 828
+[2026-05-25 18:34:00] [INFO] Target rows (existing, will be deleted): 0
+[2026-05-25 18:34:00] [INFO] DryRun=ON. Would DELETE 0 target rows and INSERT 828 new rows.
+[2026-05-25 18:34:00] [INFO] === DryRun done ===
+[2026-05-25 18:34:07] [INFO] === Mirror Form UI ===
+[2026-05-25 18:34:07] [INFO] FormID         : 139
+[2026-05-25 18:34:07] [INFO] Source         : UserSign=1 TPLId=34
+[2026-05-25 18:34:07] [INFO] Target         : UserSign=26 TPLId=3
+[2026-05-25 18:34:07] [INFO] DryRun         : True
+[2026-05-25 18:34:07] [INFO] Connected: 10.10.10.115 / SBO_Update_UI
+[2026-05-25 18:34:07] [INFO] CPRF cols (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-25 18:34:07] [INFO] Source rows: 828
+[2026-05-25 18:34:07] [INFO] Target rows (existing, will be deleted): 0
+[2026-05-25 18:34:07] [INFO] DryRun=ON. Would DELETE 0 target rows and INSERT 828 new rows.
+[2026-05-25 18:34:07] [INFO] === DryRun done ===
+[2026-05-25 18:36:22] [INFO] === Mirror Form UI ===
+[2026-05-25 18:36:22] [INFO] FormID         : 139
+[2026-05-25 18:36:22] [INFO] Source         : UserSign=1 TPLId=34
+[2026-05-25 18:36:22] [INFO] Target         : UserSign=26 TPLId=3
+[2026-05-25 18:36:22] [INFO] DryRun         : True
+[2026-05-25 18:36:22] [INFO] Connected: 10.10.10.115 / SBO_Update_UI
+[2026-05-25 18:36:22] [INFO] CPRF cols (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-25 18:36:22] [INFO] Source rows: 828
+[2026-05-25 18:36:22] [INFO] Target rows (existing, will be deleted): 0
+[2026-05-25 18:36:22] [INFO] DryRun=ON. Would DELETE 0 target rows and INSERT 828 new rows.
+[2026-05-25 18:36:22] [INFO] === DryRun done ===
+[2026-05-25 18:39:53] [INFO] === Mirror Form UI ===
+[2026-05-25 18:39:53] [INFO] FormID         : 139
+[2026-05-25 18:39:53] [INFO] Source         : UserSign=1 TPLId=34
+[2026-05-25 18:39:53] [INFO] Target         : UserSign=1 TPLId=3
+[2026-05-25 18:39:53] [INFO] DryRun         : True
+[2026-05-25 18:39:53] [INFO] Connected: 10.10.10.115 / SBO_Update_UI
+[2026-05-25 18:39:53] [INFO] CPRF cols (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-25 18:39:53] [INFO] Source rows: 828
+[2026-05-25 18:39:53] [INFO] Target rows (existing, will be deleted): 919
+[2026-05-25 18:39:53] [INFO] DryRun=ON. Would DELETE 919 target rows and INSERT 828 new rows.
+[2026-05-25 18:39:53] [INFO] === DryRun done ===
+[2026-05-25 18:39:58] [INFO] === Mirror Form UI ===
+[2026-05-25 18:39:58] [INFO] FormID         : 139
+[2026-05-25 18:39:58] [INFO] Source         : UserSign=1 TPLId=34
+[2026-05-25 18:39:58] [INFO] Target         : UserSign=1 TPLId=3
+[2026-05-25 18:39:58] [INFO] DryRun         : True
+[2026-05-25 18:39:58] [INFO] Connected: 10.10.10.115 / SBO_Update_UI
+[2026-05-25 18:39:58] [INFO] CPRF cols (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-25 18:39:58] [INFO] Source rows: 828
+[2026-05-25 18:39:58] [INFO] Target rows (existing, will be deleted): 919
+[2026-05-25 18:39:58] [INFO] DryRun=ON. Would DELETE 919 target rows and INSERT 828 new rows.
+[2026-05-25 18:39:58] [INFO] === DryRun done ===
+[2026-05-26 09:21:52] [ERROR] TRAP: System.IO.IOException: The process cannot access the file 'C:\GitHub\SDA\Form-Layout\Manage UI\Mirror_FormUI_Log.txt' because it is being used by another process.
+[2026-05-26 09:21:52] [ERROR] At: At C:\GitHub\SDA\Form-Layout\Manage UI\Scripts\Mirror-FormUI.ps1:37 char:5
++     Add-Content -Path $LogFile -Value $line -Encoding UTF8
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2026-05-26 09:22:05] [INFO] === Mirror Form UI ===
+[2026-05-26 09:22:05] [INFO] FormID         : 139
+[2026-05-26 09:22:05] [INFO] Source         : UserSign=1 TPLId=34
+[2026-05-26 09:22:05] [INFO] Target         : UserSign=1 TPLId=3
+[2026-05-26 09:22:05] [INFO] DryRun         : False
+[2026-05-26 09:22:05] [INFO] Connected: 10.10.10.115 / SBO_Update_UI
+[2026-05-26 09:22:05] [INFO] CPRF cols (17): FormID, ItemID, ColID, Width, VisInForm, VisualIndx, EditInForm, VisInExpnd, ExpandIndx, EditInEXP, Folded, UserSign, ExtDisable, ExtInvsbl, TPLId, TableName, ItemUID
+[2026-05-26 09:22:05] [INFO] Source rows: 828
+[2026-05-26 09:22:05] [INFO] Target rows (existing, will be deleted): 919
+[2026-05-26 09:22:05] [INFO] DELETE target rows: 919
+[2026-05-26 09:22:05] [INFO] Buffered 828 source rows
+[2026-05-26 09:22:06] [INFO]   ...inserted 200 rows
+[2026-05-26 09:22:08] [INFO]   ...inserted 400 rows
+[2026-05-26 09:22:09] [INFO]   ...inserted 600 rows
+[2026-05-26 09:22:11] [INFO]   ...inserted 800 rows
+[2026-05-26 09:22:11] [INFO] INSERT done: 828 rows
+[2026-05-26 09:22:11] [INFO] === Committed. DELETE=919 INSERT=828 ===

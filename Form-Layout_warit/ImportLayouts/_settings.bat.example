@@ -14,4 +14,4 @@ set DBPASSWORD=YourPasswordHere
 REM Root folder containing the .rpt files. Used by RunImport.bat /
 REM RunImport-Single.bat -- the RPT_Folder column in RPT_Import_Map.xlsx
 REM is resolved relative to this path.
-set RPTROOT=C:\SDA\SDA\Form-Layout
+set RPTROOT=C:\GitHub\SDA\Form-Layout

@@ -1,0 +1,51 @@
+Module,Sub-Module,File Name,Full Path
+1. Financials,Journal Entry,1.Journal Entry_ใบบันทึกรายการบัญชี.rpt,Form-Layout/1. Financials/1.Journal Entry_ใบบันทึกรายการบัญชี/1.Journal Entry_ใบบันทึกรายการบัญชี.rpt
+2. Sales - AR,Sales Quotation,1.Sale Quotation_ใบเสนอราคาขาย.rpt,Form-Layout/2. Sales - AR/1. Sales Quotation/1.Sale Quotation_ใบเสนอราคาขาย/1.Sale Quotation_ใบเสนอราคาขาย.rpt
+2. Sales - AR,Sales Quotation,2.Sale Quotation_ใบเสนอราคาขาย_(Bom).rpt,Form-Layout/2. Sales - AR/1. Sales Quotation/1.Sale Quotation_ใบเสนอราคาขาย(BOM)/2.Sale Quotation_ใบเสนอราคาขาย_(Bom).rpt
+2. Sales - AR,Sales Quotation,2.Sale Quotation_ใบเสนอราคาขาย_(BOM) ENG log 6.rpt,Form-Layout/2. Sales - AR/1. Sales Quotation/1.Sale Quotation_ใบเสนอราคาขาย(BOM)/2.Sale Quotation_ใบเสนอราคาขาย_(BOM) ENG log 6.rpt
+2. Sales - AR,Sales Quotation,3.Sale Quotation_ใบเสนอราคาขาย_(BOM).rpt,Form-Layout/2. Sales - AR/1. Sales Quotation/1.Sale Quotation_ใบเสนอราคาขาย(BOM)/3.Sale Quotation_ใบเสนอราคาขาย_(BOM).rpt
+2. Sales - AR,Sales Quotation,5.Sale Quotation_ใบเสนอราคาขาย_(BOM) ENG log 6.rpt,Form-Layout/2. Sales - AR/1. Sales Quotation/1.Sale Quotation_ใบเสนอราคาขาย(BOM)/5.Sale Quotation_ใบเสนอราคาขาย_(BOM) ENG log 6.rpt
+2. Sales - AR,Sales Quotation,1.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt,Form-Layout/2. Sales - AR/1. Sales Quotation/2.Sale Quotation_ใบเสนอราคาขาย_(Dis)/1.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+2. Sales - AR,Sales Quotation,2.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt,Form-Layout/2. Sales - AR/1. Sales Quotation/2.Sale Quotation_ใบเสนอราคาขาย_(Dis)/2.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+2. Sales - AR,Sales Quotation,4.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG log 6.rpt,Form-Layout/2. Sales - AR/1. Sales Quotation/2.Sale Quotation_ใบเสนอราคาขาย_(Dis)/4.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG  log 6.rpt
+2. Sales - AR,Sales Order,2.Sale Order_ใบสั่งขาย_(Dis).rpt,Form-Layout/2. Sales - AR/2. Sales Order/1.Sale Order_ใบสั่งขาย_(Dis)/2.Sale Order_ใบสั่งขาย_(Dis).rpt
+2. Sales - AR,Sales Order,1.Sale Order_ใบสั่งขาย_(Bom).rpt,Form-Layout/2. Sales - AR/2. Sales Order/3.Sale Order_ใบสั่งขาย_(Bomm)/1.Sale Order_ใบสั่งขาย_(Bom).rpt
+2. Sales - AR,Delivery,1.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt,Form-Layout/2. Sales - AR/3. Delivery/2.Delivery_ใบส่งของ_(Batch_Serial)/1.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt
+2. Sales - AR,Delivery,2.Delivery_ใบส่งของ_(Batch_Serial).rpt,Form-Layout/2. Sales - AR/3. Delivery/2.Delivery_ใบส่งของ_(Batch_Serial)/2.Delivery_ใบส่งของ_(Batch_Serial).rpt
+2. Sales - AR,Delivery,2.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt,Form-Layout/2. Sales - AR/3. Delivery/2.Delivery_ใบส่งของ_(Batch_Serial)/2.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt
+2. Sales - AR,Return,2.Retrun_ใบรับคืนสินค้า_(Batch_Serial).rpt,Form-Layout/2. Sales - AR/4. Return/2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)/2.Retrun_ใบรับคืนสินค้า_(Batch_Serial).rpt
+2. Sales - AR,AR Down Payment Invoice,1.AR Down Payment_ใบเสร็จรับเงินมัดจำ.rpt,Form-Layout/2. Sales - AR/5. AR Down Payment Invoice/1.AR Down Payment_ใบเสร็จรับเงินมัดจำ/1.AR Down Payment_ใบเสร็จรับเงินมัดจำ.rpt
+2. Sales - AR,AR Down Payment Invoice,2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt,Form-Layout/2. Sales - AR/5. AR Down Payment Invoice/2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี/2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+2. Sales - AR,AR Down Payment Invoice,3.AR Down PaymentTax Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt,Form-Layout/2. Sales - AR/5. AR Down Payment Invoice/3.AR Down PaymentTax Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี/3.AR Down PaymentTax Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+2. Sales - AR,AR Invoice,1.AR Invoice_ใบแจ้งหนี้.rpt,Form-Layout/2. Sales - AR/6. AR Invoice/1.AR Invoice_ใบแจ้งหนี้/1.AR Invoice_ใบแจ้งหนี้.rpt
+2. Sales - AR,AR Invoice,2.AR Invoice_ใบแจ้งหนี้_(Dis).rpt,Form-Layout/2. Sales - AR/6. AR Invoice/2.AR Invoice_ใบแจ้งหนี้_(Dis)/2.AR Invoice_ใบแจ้งหนี้_(Dis).rpt
+2. Sales - AR,AR Invoice,3.Tax Invoice_ใบกำกับภาษี.rpt,Form-Layout/2. Sales - AR/6. AR Invoice/3.Tax Invoice_ใบกำกับภาษี/3.Tax Invoice_ใบกำกับภาษี.rpt
+2. Sales - AR,AR Invoice,4.AR InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี.rpt,Form-Layout/2. Sales - AR/6. AR Invoice/4.AR InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี/4.AR InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี.rpt
+2. Sales - AR,AR Invoice,5.DeliveryTax Invoice_ใบส่งของใบกำกับภาษี_(Batch_Serial).rpt,Form-Layout/2. Sales - AR/6. AR Invoice/5.DeliveryTax Invoice_ใบส่งของใบกำกับภาษี_(Batch_Serial)/5.DeliveryTax Invoice_ใบส่งของใบกำกับภาษี_(Batch_Serial).rpt
+2. Sales - AR,AR Invoice,6.AR InvoiceDeliveryTax Invoice_ใบส่งของใบแจ้งหนี้ใบกำกับภาษี.rpt,Form-Layout/2. Sales - AR/6. AR Invoice/6.AR InvoiceDeliveryTax Invoice_ใบส่งของใบแจ้งหนี้ใบกำกับภาษี/6.AR InvoiceDeliveryTax Invoice_ใบส่งของใบแจ้งหนี้ใบกำกับภาษี.rpt
+2. Sales - AR,AR Invoice,7.DeliveryAR InvoiceTax Invoice_ใบส่งของใบแจ้งหนี้ใบกำกับภาษี_(Batch_Serial).rpt,Form-Layout/2. Sales - AR/6. AR Invoice/7.DeliveryAR InvoiceTax Invoice_ใบส่งของใบแจ้งหนี้ใบกำกับภาษี_(Batch_Serial)/7.DeliveryAR InvoiceTax Invoice_ใบส่งของใบแจ้งหนี้ใบกำกับภาษี_(Batch_Serial).rpt
+2. Sales - AR,AR Invoice,8.AR Debit Note_ใบเพิ่มหนี้.rpt,Form-Layout/2. Sales - AR/6. AR Invoice/8.AR Debit Note_ใบเพิ่มหนี้/8.AR Debit Note_ใบเพิ่มหนี้.rpt
+2. Sales - AR,AR Credit Memo,1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน.rpt,Form-Layout/2. Sales - AR/7. AR Credit Memo/1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน/1.AR_Credit Memo_ใบลดหนี้ แก้ไขยอดเงิน.rpt
+2. Sales - AR,AR Credit Memo,2.AR_Credit Memo_ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt,Form-Layout/2. Sales - AR/7. AR Credit Memo/2.AR_Credit Memo_ใบลดหนี้_(Dis) แก้ไขยอดเงิน/2.AR_Credit Memo_ใบลดหนี้_(Dis) แก้ไขยอดเงิน.rpt
+2. Sales - AR,AR Credit Memo,3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน.rpt,Form-Layout/2. Sales - AR/7. AR Credit Memo/3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน/3.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) แก้ไขยอดเงิน.rpt
+2. Sales - AR,AR Credit Memo,4.AR_Credit Memo_ใบลดหนี้_(Batch&Serial)(Dis).rpt,Form-Layout/2. Sales - AR/7. AR Credit Memo/4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)/4.AR_Credit Memo_ใบลดหนี้_(Batch&Serial)(Dis).rpt
+3. Purchasing - AP,Purchase Request,1.Purchase Request_TH_ใบขอซื้อ.rpt,Form-Layout/3. Purchasing - AP/1. Purchase Request/1.Purchase Request_TH_ใบขอซื้อ/1.Purchase Request_TH_ใบขอซื้อ.rpt
+3. Purchasing - AP,Purchase Quotation,1.Purchase Quotation_ใบเสนอราคาซื้อ.rpt,Form-Layout/3. Purchasing - AP/2. Purchase Quotation/1.Purchase Quotation_ใบเสนอราคาซื้อ/1.Purchase Quotation_ใบเสนอราคาซื้อ.rpt
+3. Purchasing - AP,Purchase Order,1.Purchase Order_TH_ใบสั่งซื้อ.rpt,Form-Layout/3. Purchasing - AP/3. Purchase Order/1.Purchase Order_TH_ใบสั่งซื้อ/1.Purchase Order_TH_ใบสั่งซื้อ.rpt
+3. Purchasing - AP,Goods Receipt PO,2.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt,Form-Layout/3. Purchasing - AP/4. Goods Receipt PO/2.Goods Receive PO_TH_ใบรับสินค้า_(Batch_Serial) - Copy/2.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+3. Purchasing - AP,Goods Return,2.Goods Return_TH_ใบส่งคืนสินค้า_(Batch_Serial).rpt,Form-Layout/3. Purchasing - AP/5. Goods Return/2.Goods Return_EN_ใบส่งคืนสินค้า_(Batch_Serial)/2.Goods Return_TH_ใบส่งคืนสินค้า_(Batch_Serial).rpt
+3. Purchasing - AP,AP Down Payment Invoice,1.AP Down Payment_ใบจ่ายเงินมัดจำ.rpt,Form-Layout/3. Purchasing - AP/6. AP Down Payment Invoice/1.AP Down Payment ใบจ่ายเงินมัดจำ/1.AP Down Payment_ใบจ่ายเงินมัดจำ.rpt
+3. Purchasing - AP,AP Down Payment Invoice,2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt,Form-Layout/3. Purchasing - AP/6. AP Down Payment Invoice/2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้/2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+3. Purchasing - AP,AP Invoice,1.AP Invoice_ใบแจ้งหนี้.rpt,Form-Layout/3. Purchasing - AP/7. AP Invoice/1.AP Invoice_ใบแจ้งหนี้/1.AP Invoice_ใบแจ้งหนี้.rpt
+3. Purchasing - AP,AP Invoice,2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt,Form-Layout/3. Purchasing - AP/7. AP Invoice/2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial)/2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt
+3. Purchasing - AP,AP Invoice,3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี(Batch_Serial).rpt,Form-Layout/3. Purchasing - AP/7. AP Invoice/3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี/3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี(Batch_Serial).rpt
+3. Purchasing - AP,AP Invoice,3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี.rpt,Form-Layout/3. Purchasing - AP/7. AP Invoice/3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี/3.AP InvoiceTax Invoice_ใบแจ้งหนี้ใบกำกับภาษี.rpt
+3. Purchasing - AP,AP Invoice,4.AP Debit Note_ใบเพิ่มหนี้.rpt,Form-Layout/3. Purchasing - AP/7. AP Invoice/4.AP Debit Note_ใบเพิ่มหนี้/4.AP Debit Note_ใบเพิ่มหนี้.rpt
+3. Purchasing - AP,AP Credit Memo,1.AP Credit Memo_ใบลดหนี้.rpt,Form-Layout/3. Purchasing - AP/8. AP Credit Memo/1.AP Credit Memo_ใบลดหนี้/1.AP Credit Memo_ใบลดหนี้.rpt
+4. Banking,Incoming Payments,1.Incoming Payments_ใบเสร็จรับเงิน.rpt,Form-Layout/4. Banking/1. Incoming Payments/1.Incoming Payments_ใบเสร็จรับเงิน/1.Incoming Payments_ใบเสร็จรับเงิน.rpt
+4. Banking,Incoming Payments,2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี.rpt,Form-Layout/4. Banking/1. Incoming Payments/2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี/2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี.rpt
+4. Banking,Outgoing Payments,1.Outgoing Payments_ใบจ่ายชำระ.rpt,Form-Layout/4. Banking/2. Outgoing Payments/1.Outgoing Payments_ใบจ่ายชำระ/1.Outgoing Payments_ใบจ่ายชำระ.rpt
+5. Inventory,Goods Receipt,2.Goods Receipt_ใบรับสินค้า_(Batch_Serial).rpt,Form-Layout/5. Inventory/1. Goods Receipt/2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)/2.Goods Receipt_ใบรับสินค้า_(Batch_Serial).rpt
+5. Inventory,Goods Issue,2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt,Form-Layout/5. Inventory/2. Goods Issue/2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)/2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
+5. Inventory,Inventory Transfer Request,1.Inventory Transfer Request_ใบขอโอนสินค้า.rpt,Form-Layout/5. Inventory/3. Inventory Transfer Request/1.Inventory Transfer Request_ใบขอโอนสินค้า/1.Inventory Transfer Request_ใบขอโอนสินค้า.rpt
+5. Inventory,Inventory Transfer,2.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial).rpt,Form-Layout/5. Inventory/4. Inventory Transfer/2.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial) - Copy - Copy/2.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial).rpt

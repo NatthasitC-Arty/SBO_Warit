@@ -1,0 +1,16 @@
+﻿"Action","FormID","ItemID","ColumnID","FMSAction","QueryName","QueryCategory","QueryBody","FixedValue","Refresh","ByField","TriggerID","TriggerColumn","ForceRefresh"
+"UPSERT","149","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","139","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","140","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","179","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","141","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","203","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","182","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","181","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","540000841","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","142","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","143","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","180","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","133","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","204","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"
+"UPSERT","18","222","-1","Q","Owner","21","SELECT TOP 1 T0.[empID] FROM OHEM T0 WHERE T0.[userId] = '$[USER]'","","Y","Y","12","","N"

@@ -1,0 +1,16 @@
+@echo off
+REM ============================================================
+REM  CONNECTION SETTINGS -- Manage UI (Form Settings)
+REM ------------------------------------------------------------
+REM  Copy this file to _settings.bat (without .example) and fill
+REM  in your environment values. _settings.bat is gitignored.
+REM ============================================================
+
+REM --- Database ---
+set SERVER=<your-sql-host-or-ip>
+set COMPANYDB=<your-company-db>
+set DBUSER=<your-db-user>
+set DBPASSWORD=<your-db-password>
+
+REM --- DB engine: MSSQL or HANA ---
+set DBTYPE=MSSQL

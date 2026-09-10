@@ -1,0 +1,149 @@
+﻿[2026-09-01 14:06:58][INFO] === Fix-PageFooterTotals start  mode=APPLY ===
+[2026-09-01 14:06:58][INFO] Path=C:\GitHub\SDA\Form-Layout_SDA  files=64  formula='PageNumber <> TotalPageCount'
+[2026-09-01 14:06:59][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(BOM) ENG.rpt
+[2026-09-01 14:06:59][INFO]     [PageFooterSection1] Text16       set      {AR_SQ.DiscP}
+[2026-09-01 14:06:59][INFO]     [PageFooterSection1] Text54       set      {@Totext}
+[2026-09-01 14:07:01][OK]     verified on disk: 2 object(s)
+[2026-09-01 14:07:02][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(Bom).rpt
+[2026-09-01 14:07:02][INFO]     [PageFooterSection2] Text16       set      {AR_SQ.DiscP}
+[2026-09-01 14:07:02][INFO]     [PageFooterSection2] Text52       set      {@ToText}
+[2026-09-01 14:07:02][OK]     verified on disk: 2 object(s)
+[2026-09-01 14:07:03][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG.rpt
+[2026-09-01 14:07:03][INFO]     [PageFooterSection1] Text16       set      {AR_SQ.DiscP}
+[2026-09-01 14:07:03][INFO]     [PageFooterSection1] Text54       set      {@Totext}
+[2026-09-01 14:07:04][OK]     verified on disk: 2 object(s)
+[2026-09-01 14:07:05][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-09-01 14:07:05][INFO]     [PageFooterSection2] Text16       set      {AR_SQ.DiscP}
+[2026-09-01 14:07:05][INFO]     [PageFooterSection2] Text52       set      {@ToText}
+[2026-09-01 14:07:05][OK]     verified on disk: 2 object(s)
+[2026-09-01 14:07:06][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-09-01 14:07:06][INFO]     [PageFooterSection1] Text31       set      {@ToText}
+[2026-09-01 14:07:06][INFO]     [PageFooterSection1] Text1        set      {AR_SO.DiscP}
+[2026-09-01 14:07:06][INFO]     [PageFooterSection1] Text50       set      {@SubTotal}
+[2026-09-01 14:07:08][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:07:08][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\3.Sale Order_ใบสั่งขาย_(Bomm)\2.Sale Order_ใบสั่งขาย_(Bom).rpt
+[2026-09-01 14:07:08][INFO]     [PageFooterSection1] Text1        set      {AR_SO.DiscP}
+[2026-09-01 14:07:08][INFO]     [PageFooterSection1] Text31       set      {@ToTecxt}
+[2026-09-01 14:07:08][INFO]     [PageFooterSection1] Text48       set      {@SubTotal}
+[2026-09-01 14:07:10][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:07:15][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_BOM ใบเสร็จรับเงินมัดจำ.rpt
+[2026-09-01 14:07:15][INFO]     [PageFooterSection1] Text31       combine  {@T Text}
+[2026-09-01 14:07:15][INFO]         was '{AR_DownPayment.DocCur} <> 'THB''  ->  'PageNumber <> TotalPageCount or ({AR_DownPayment.DocCur} <> 'THB')'
+[2026-09-01 14:07:15][INFO]     [PageFooterSection1] Text7        set      {AR_DownPayment.dpmprcnt}
+[2026-09-01 14:07:15][INFO]     [PageFooterSection1] Text30       set      {AR_DownPayment.DpmAmnt}
+[2026-09-01 14:07:17][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:07:17][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_BOM_ENG ใบเสร็จรับเงินมัดจำ.rpt
+[2026-09-01 14:07:17][INFO]     [PageFooterSection1] Text7        set      {AR_DownPayment.dpmprcnt}
+[2026-09-01 14:07:17][INFO]     [PageFooterSection1] Text58       set      {@T Sum Line Total}
+[2026-09-01 14:07:17][INFO]     [PageFooterSection1] Text59       set      {AR_DownPayment.DpmAmnt}
+[2026-09-01 14:07:17][INFO]     [PageFooterSection1] Text62       set      {@F Text }
+[2026-09-01 14:07:19][OK]     verified on disk: 4 object(s)
+[2026-09-01 14:07:20][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_BOM ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 14:07:20][INFO]     [PageFooterSection1] Text31       combine  {@T Text}
+[2026-09-01 14:07:20][INFO]         was '{AR_DownPayment.DocCur} <> 'THB''  ->  'PageNumber <> TotalPageCount or ({AR_DownPayment.DocCur} <> 'THB')'
+[2026-09-01 14:07:20][INFO]     [PageFooterSection1] Text7        set      {AR_DownPayment.dpmprcnt}
+[2026-09-01 14:07:20][INFO]     [PageFooterSection1] Text30       set      {AR_DownPayment.DpmAmnt}
+[2026-09-01 14:07:21][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:07:22][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_BOM_ENG ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 14:07:22][INFO]     [PageFooterSection1] Text7        set      {AR_DownPayment.dpmprcnt}
+[2026-09-01 14:07:22][INFO]     [PageFooterSection1] Text58       set      {@T Sum Line Total}
+[2026-09-01 14:07:22][INFO]     [PageFooterSection1] Text59       set      {AR_DownPayment.DpmAmnt}
+[2026-09-01 14:07:22][INFO]     [PageFooterSection1] Text62       set      {@F Text }
+[2026-09-01 14:07:23][OK]     verified on disk: 4 object(s)
+[2026-09-01 14:07:24][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down Payment Invoice_BOM ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-09-01 14:07:24][INFO]     [PageFooterSection1] Text31       combine  {@T Text}
+[2026-09-01 14:07:24][INFO]         was '{AR_DownPayment.DocCur} <> 'THB''  ->  'PageNumber <> TotalPageCount or ({AR_DownPayment.DocCur} <> 'THB')'
+[2026-09-01 14:07:24][INFO]     [PageFooterSection1] Text7        set      {AR_DownPayment.dpmprcnt}
+[2026-09-01 14:07:24][INFO]     [PageFooterSection1] Text30       set      {AR_DownPayment.DpmAmnt}
+[2026-09-01 14:07:25][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:07:26][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_BOM_ENG ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-09-01 14:07:26][INFO]     [PageFooterSection1] Text7        set      {AR_DownPayment.dpmprcnt}
+[2026-09-01 14:07:26][INFO]     [PageFooterSection1] Text58       set      {@T Sum Line Total}
+[2026-09-01 14:07:26][INFO]     [PageFooterSection1] Text59       set      {AR_DownPayment.DpmAmnt}
+[2026-09-01 14:07:26][INFO]     [PageFooterSection1] Text62       set      {@F Text }
+[2026-09-01 14:07:27][OK]     verified on disk: 4 object(s)
+[2026-09-01 14:07:28][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\1.AR Invoice_ENG ใบแจ้งหนี้_(Dis).rpt
+[2026-09-01 14:07:28][INFO]     [PageFooterSection3] Text31       set      {@ToText}
+[2026-09-01 14:07:28][INFO]     [PageFooterSection3] Text8        set      {AR_INV.DiscP}
+[2026-09-01 14:07:28][INFO]     [PageFooterSection3] Text50       set      {AR_INV.DpmAmnt}
+[2026-09-01 14:07:28][INFO]     [PageFooterSection3] Text51       set      {@DiscountAmt}
+[2026-09-01 14:07:30][OK]     verified on disk: 4 object(s)
+[2026-09-01 14:07:30][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\1.AR Invoice_ใบแจ้งหนี้_(Dis).rpt
+[2026-09-01 14:07:30][INFO]     [PageFooterSection3] Text31       set      {@ToText}
+[2026-09-01 14:07:30][INFO]     [PageFooterSection3] Text8        set      {AR_INV.DiscP}
+[2026-09-01 14:07:30][INFO]     [PageFooterSection3] Text50       set      {AR_INV.DpmAmnt}
+[2026-09-01 14:07:30][INFO]     [PageFooterSection3] Text51       set      {@DiscountAmt}
+[2026-09-01 14:07:32][OK]     verified on disk: 4 object(s)
+[2026-09-01 14:07:32][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\2.BillingAR InvoiceTax Invoice_ENG ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-09-01 14:07:32][INFO]     [PageFooterSection3] Text31       set      {@ToText}
+[2026-09-01 14:07:32][INFO]     [PageFooterSection3] Text8        set      {AR_INV.DiscPrcnt}
+[2026-09-01 14:07:32][INFO]     [PageFooterSection3] Text50       set      {AR_INV.DpmAmnt}
+[2026-09-01 14:07:32][INFO]     [PageFooterSection3] Text51       set      {@DiscountAmt}
+[2026-09-01 14:07:34][OK]     verified on disk: 4 object(s)
+[2026-09-01 14:07:35][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\2.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-09-01 14:07:35][INFO]     [PageFooterSection3] Text31       set      {@ToText}
+[2026-09-01 14:07:35][INFO]     [PageFooterSection3] Text8        set      {AR_INV.DiscP}
+[2026-09-01 14:07:35][INFO]     [PageFooterSection3] Text50       set      {AR_INV.DpmAmnt}
+[2026-09-01 14:07:35][INFO]     [PageFooterSection3] Text51       set      {@DiscountAmt}
+[2026-09-01 14:07:36][OK]     verified on disk: 4 object(s)
+[2026-09-01 14:07:37][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\3.BillingAR Invoice_ENG ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-09-01 14:07:37][INFO]     [PageFooterSection3] Text31       set      {@ToText}
+[2026-09-01 14:07:37][INFO]     [PageFooterSection3] Text50       set      {AR_INV.DpmAmnt}
+[2026-09-01 14:07:37][INFO]     [PageFooterSection3] Text51       set      {@DiscountAmt}
+[2026-09-01 14:07:39][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:07:40][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\3.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-09-01 14:07:40][INFO]     [PageFooterSection3] Text31       set      {@ToText}
+[2026-09-01 14:07:40][INFO]     [PageFooterSection3] Text8        set      {AR_INV.DiscP}
+[2026-09-01 14:07:40][INFO]     [PageFooterSection3] Text50       set      {AR_INV.DpmAmnt}
+[2026-09-01 14:07:40][INFO]     [PageFooterSection3] Text51       set      {@DiscountAmt}
+[2026-09-01 14:07:41][OK]     verified on disk: 4 object(s)
+[2026-09-01 14:07:42][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\1.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis).rpt
+[2026-09-01 14:07:42][INFO]     [PageFooterSection1] Text4        set      {@Difference value}
+[2026-09-01 14:07:44][OK]     verified on disk: 1 object(s)
+[2026-09-01 14:07:45][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\1.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) (Dis).rpt
+[2026-09-01 14:07:45][INFO]     [PageFooterSection1] Text4        set      {@Difference value}
+[2026-09-01 14:07:46][OK]     verified on disk: 1 object(s)
+[2026-09-01 14:07:49][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_ENG_ใบสั่งซื้อ.rpt
+[2026-09-01 14:07:49][INFO]     [PageFooterSection1] Text15       set      {@T Text}
+[2026-09-01 14:07:49][INFO]     [PageFooterSection1] Text60       set      {@subtotal}
+[2026-09-01 14:07:50][OK]     verified on disk: 2 object(s)
+[2026-09-01 14:07:53][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_TH_ใบสั่งซื้อ.rpt
+[2026-09-01 14:07:53][INFO]     [PageFooterSection1] Text15       set      {@T Text}
+[2026-09-01 14:07:53][INFO]     [PageFooterSection1] Text60       set      {@subtotal}
+[2026-09-01 14:07:54][OK]     verified on disk: 2 object(s)
+[2026-09-01 14:07:56][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ENG ใบจ่ายเงินมัดจำ.rpt
+[2026-09-01 14:07:56][INFO]     [PageFooterSection1] Text7        set      {AP_DownPayment.dpmprcnt}
+[2026-09-01 14:07:56][INFO]     [PageFooterSection1] Text58       set      {@T Sum Line Total}
+[2026-09-01 14:07:56][INFO]     [PageFooterSection1] Text59       set      {AP_DownPayment.DpmAmnt}
+[2026-09-01 14:07:58][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:07:58][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ใบจ่ายเงินมัดจำ.rpt
+[2026-09-01 14:07:58][INFO]     [PageFooterSection1] Text7        set      {AP_DownPayment.dpmprcnt}
+[2026-09-01 14:07:58][INFO]     [PageFooterSection1] Text58       set      {@T Sum Line Total}
+[2026-09-01 14:07:58][INFO]     [PageFooterSection1] Text59       set      {AP_DownPayment.DpmAmnt}
+[2026-09-01 14:08:00][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:08:01][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ENG ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 14:08:01][INFO]     [PageFooterSection1] Text7        set      {AP_DownPayment.dpmprcnt}
+[2026-09-01 14:08:01][INFO]     [PageFooterSection1] Text58       set      {@T Sum Line Total}
+[2026-09-01 14:08:01][INFO]     [PageFooterSection1] Text59       set      {AP_DownPayment.DpmAmnt}
+[2026-09-01 14:08:01][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:08:02][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 14:08:02][INFO]     [PageFooterSection1] Text7        set      {AP_DownPayment.dpmprcnt}
+[2026-09-01 14:08:02][INFO]     [PageFooterSection1] Text58       set      {@T Sum Line Total}
+[2026-09-01 14:08:02][INFO]     [PageFooterSection1] Text59       set      {AP_DownPayment.DpmAmnt}
+[2026-09-01 14:08:03][OK]     verified on disk: 3 object(s)
+[2026-09-01 14:08:04][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\7. AP Invoice\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial)\1.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt
+[2026-09-01 14:08:04][INFO]     [PageFooterSection1] Text28       set      {AP_INV_BN.DiscPrcnt}
+[2026-09-01 14:08:05][OK]     verified on disk: 1 object(s)
+[2026-09-01 14:08:06][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\8. AP Credit Memo\1.AP Credit Memo_ใบลดหนี้\1.AP Credit Memo_ใบลดหนี้.rpt
+[2026-09-01 14:08:06][INFO]     [PageFooterSection1] Text54       set      {@total value}
+[2026-09-01 14:08:06][INFO]     [PageFooterSection1] Text55       set      {@dif Value}
+[2026-09-01 14:08:08][OK]     verified on disk: 2 object(s)
+[2026-09-01 14:08:12][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ ENG ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-09-01 14:08:12][INFO]     [PageFooterSection1] Text31       set      {@F Text }
+[2026-09-01 14:08:12][INFO]     [PageFooterSection1] Text8        set      {@GrossTotal}
+[2026-09-01 14:08:13][OK]     verified on disk: 2 object(s)
+[2026-09-01 14:08:34][INFO] ==============================================================
+[2026-09-01 14:08:34][INFO] LEFT ALONE -- formula is commented out, someone did that on purpose (1):
+[2026-09-01 14:08:34][INFO]   C | C:\GitHub\SDA\Form-Layout_SDA\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_Eng ใบเสร็จรับเงิน.rpt || PageFooterSection1|Text31 || //pageNumber <> TotalPageCount or {Bank_Receipt.RctDocCurr}<> 'THB'
+[2026-09-01 14:08:34][INFO] SUMMARY mode=APPLY  files=64  changed=29  failed=0  set=78  combined=3  alreadyOk=115  commented=1
+[2026-09-01 14:08:34][INFO] ==============================================================

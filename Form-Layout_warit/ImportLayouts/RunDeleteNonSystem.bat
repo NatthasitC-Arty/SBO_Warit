@@ -16,6 +16,13 @@ call "%~dp0_settings.bat"
 set SYSTEMAUTHOR=System
 
 REM ============================================================
+REM  TST / Thai tax reports (TypeCode A001-A009) are PROTECTED by
+REM  default in Delete-NonSystemLayouts.ps1 -- they are NEVER deleted,
+REM  even though their Author is 'manager' (not 'System').
+REM  To override, pass -KeepTypeCode to the script directly.
+REM ============================================================
+
+REM ============================================================
 REM  MODE:
 REM    -DryRun        = preview only (no delete)
 REM    (leave empty)  = delete for real (will ask 'yes' confirm)

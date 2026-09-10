@@ -1,0 +1,78 @@
+{
+    "Sales_AR": [
+        {
+            "FormName": "Sales Quotation",
+            "FormID": 149
+        },
+        {
+            "FormName": "Sales Order",
+            "FormID": 139
+        },
+        {
+            "FormName": "Delivery",
+            "FormID": 140
+        },
+        {
+            "FormName": "A/R Invoice",
+            "FormID": 133
+        },
+        {
+            "Name": "A/R Credit Memo",
+            "FormID": 179
+        }
+    ],
+    "Purchasing_AP": [
+        {
+            "FormName": "Purchase Order",
+            "FormID": 142
+        },
+        {
+            "FormName": "Goods Receipt PO",
+            "FormID": 143
+        },
+        {
+            "FormName": "A/P Invoice",
+            "FormID": 141
+        },
+        {
+            "FormName": "A/P Credit Memo",
+            "FormID": 181
+        }
+    ],
+    "Master_Data": [
+        {
+            "FormName": "Business Partner Master Data",
+            "FormID": 134
+        },
+        {
+            "FormName": "Item Master Data",
+            "FormID": 150
+        }
+    ],
+    "Finance_and_Inventory": [
+        {
+            "FormName": "Journal Entry",
+            "FormID": 392
+        },
+        {
+            "FormName": "Incoming Payments",
+            "FormID": 170
+        },
+        {
+            "FormName": "Outgoing Payments",
+            "FormID": 426
+        },
+        {
+            "FormName": "Inventory Transfer",
+            "FormID": 940
+        },
+        {
+            "FormName": "Goods Receipt",
+            "FormID": 721
+        },
+        {
+            "FormName": "Goods Issue",
+            "FormID": 720
+        }
+    ]
+}

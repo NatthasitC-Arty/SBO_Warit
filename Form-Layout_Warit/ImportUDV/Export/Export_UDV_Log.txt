@@ -1,0 +1,313 @@
+﻿[2026-05-12 23:45:58] [INFO] === Start UDV/FMS Export (DI API) ===
+[2026-05-12 23:45:58] [INFO] Loaded DI API: C:\Program Files\SAP\Data Transfer Workbench\Interop.SAPbobsCOM.dll
+[2026-05-12 23:45:58] [INFO] Server   : POWERAIDB115
+[2026-05-12 23:45:58] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-12 23:45:58] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260512_234556.csv
+[2026-05-12 23:46:22] [INFO] === Start UDV/FMS Export (DI API) ===
+[2026-05-12 23:46:22] [INFO] Loaded DI API: C:\Program Files\SAP\Data Transfer Workbench\Interop.SAPbobsCOM.dll
+[2026-05-12 23:46:22] [INFO] Server   : POWERAIDB115
+[2026-05-12 23:46:22] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-12 23:46:22] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260512_234621.csv
+[2026-05-12 23:46:28] [INFO] Connected (DbServerType=dst_MSSQL2019)
+[2026-05-12 23:46:29] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-12 23:46:29] [INFO] Found 32 FMS records in CSHS
+[2026-05-12 23:46:29] [WARN]   [1/32] Error reading 134/1320002080/-1 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [2/32] Error reading 134/56/-1 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [3/32] Error reading 134/7/-1 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [4/32] Error reading 139/38/15 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [5/32] Error reading 139/38/U_SLD_T_BeDis : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [6/32] Error reading 1470000200/38/15 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [7/32] Error reading 1470000200/38/21 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [8/32] Error reading 1470000200/38/U_SLD_T_BeDis : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [9/32] Error reading 149/38/15 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [10/32] Error reading 149/38/20 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [11/32] Error reading 149/38/21 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [12/32] Error reading 149/38/U_SLD_Dis_Amount : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [13/32] Error reading 149/38/U_SLD_Dis_Sum : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [14/32] Error reading 149/38/U_SLD_T_BeDis : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [15/32] Error reading 150/1320002059/-1 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [16/32] Error reading 185/4/U_SLD_ItemSeries : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [17/32] Error reading 185/4/U_SLD_Series : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [18/32] Error reading 392/76/U_SLD_BPAds : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:29] [WARN]   [19/32] Error reading 392/76/U_SLD_CardName : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [20/32] Error reading 392/76/U_SLD_LBPTaxID : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [21/32] Error reading 392/76/U_SLD_LPBranch : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [22/32] Error reading 392/76/U_SLD_WTBaseAmt : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [23/32] Error reading 392/76/U_SLD_WTCode : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [24/32] Error reading 393/76/U_SLD_BPAds : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [25/32] Error reading 393/76/U_SLD_CardName : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [26/32] Error reading 393/76/U_SLD_LBPTaxID : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [27/32] Error reading 393/76/U_SLD_LPBranch : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [28/32] Error reading 393/76/U_SLD_WTBaseAmt : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [29/32] Error reading 393/76/U_SLD_WTCode : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [30/32] Error reading 65300/38/U_SLD_T_BeDis : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [31/32] Error reading 720/13/57 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:46:30] [WARN]   [32/32] Error reading 721/13/57 : Cannot find an overload for "GetByKey" and the argument count: "3"
+[2026-05-12 23:50:25] [INFO] === Start UDV/FMS Export (SQL via DI API Recordset) ===
+[2026-05-12 23:50:26] [INFO] Loaded DI API: C:\Program Files\SAP\Data Transfer Workbench\Interop.SAPbobsCOM.dll
+[2026-05-12 23:50:26] [INFO] Server   : POWERAIDB115
+[2026-05-12 23:50:26] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-12 23:50:26] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260512_235025.csv
+[2026-05-12 23:50:31] [INFO] Connected (DbServerType=dst_MSSQL2019)
+[2026-05-12 23:50:32] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-12 23:50:32] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-12 23:50:33] [INFO] Read 32 FMS rows from CSHS
+[2026-05-12 23:50:33] [INFO] === Done. Exported 32 records ===
+[2026-05-12 23:50:33] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260512_235025.csv
+[2026-05-13 09:38:11] [INFO] === Start UDV/FMS Export (SQL via DI API Recordset) ===
+[2026-05-13 09:38:11] [INFO] Loaded DI API: C:\Program Files\SAP\Data Transfer Workbench\Interop.SAPbobsCOM.dll
+[2026-05-13 09:38:11] [INFO] Server   : POWERAIDB115
+[2026-05-13 09:38:11] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-13 09:38:11] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_093809.csv
+[2026-05-13 09:38:22] [INFO] Connected (DbServerType=dst_MSSQL2019)
+[2026-05-13 09:38:23] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-13 09:38:25] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-13 09:38:26] [INFO] Read 36 FMS rows from CSHS
+[2026-05-13 09:38:26] [INFO] === Done. Exported 36 records ===
+[2026-05-13 09:38:26] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_093809.csv
+[2026-05-13 10:21:24] [INFO] === Start UDV/FMS Export (SQL via DI API Recordset) ===
+[2026-05-13 10:21:24] [INFO] Loaded DI API: C:\Program Files\SAP\Data Transfer Workbench\Interop.SAPbobsCOM.dll
+[2026-05-13 10:21:24] [INFO] Server   : POWERAIDB115
+[2026-05-13 10:21:24] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-13 10:21:24] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_102122.csv
+[2026-05-13 10:21:33] [INFO] Connected (DbServerType=dst_MSSQL2019)
+[2026-05-13 10:21:33] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-13 10:21:34] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-13 10:21:34] [INFO] Read 36 FMS rows from CSHS
+[2026-05-13 10:21:34] [INFO] === Done. Exported 36 records ===
+[2026-05-13 10:21:34] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_102122.csv
+[2026-05-13 10:36:19] [INFO] === Start UDV/FMS Export (SQL via DI API Recordset) ===
+[2026-05-13 10:36:19] [INFO] Loaded DI API: C:\Program Files\SAP\Data Transfer Workbench\Interop.SAPbobsCOM.dll
+[2026-05-13 10:36:19] [INFO] Server   : POWERAIDB115
+[2026-05-13 10:36:19] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-13 10:36:19] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_103618.csv
+[2026-05-13 10:36:30] [INFO] Connected (DbServerType=dst_MSSQL2019)
+[2026-05-13 10:36:30] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-13 10:36:31] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-13 10:36:31] [INFO] Read 36 CSHS rows; expanded to 59 CSV rows (one per trigger when multi-trigger)
+[2026-05-13 10:36:31] [INFO] === Done. Exported 59 records ===
+[2026-05-13 10:36:31] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_103618.csv
+[2026-05-13 10:42:44] [INFO] === Start UDV/FMS Export (SQL via DI API Recordset) ===
+[2026-05-13 10:42:44] [INFO] Loaded DI API: C:\Program Files\SAP\Data Transfer Workbench\Interop.SAPbobsCOM.dll
+[2026-05-13 10:42:44] [INFO] Server   : POWERAIDB115
+[2026-05-13 10:42:44] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-13 10:42:44] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_104243.csv
+[2026-05-13 10:42:55] [INFO] Connected (DbServerType=dst_MSSQL2019)
+[2026-05-13 10:42:55] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-13 10:42:56] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-13 10:42:57] [INFO] Read 36 CSHS rows; expanded to 59 CSV rows (one per trigger when multi-trigger)
+[2026-05-13 10:42:57] [INFO] === Done. Exported 59 records ===
+[2026-05-13 10:42:57] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_104243.csv
+[2026-05-13 10:58:21] [INFO] === Start UDV/FMS Export (SQL via DI API Recordset) ===
+[2026-05-13 10:58:21] [INFO] Loaded DI API: C:\Program Files\SAP\Data Transfer Workbench\Interop.SAPbobsCOM.dll
+[2026-05-13 10:58:21] [INFO] Server   : POWERAIDB115
+[2026-05-13 10:58:21] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-13 10:58:21] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_105820.csv
+[2026-05-13 10:58:28] [INFO] Connected (DbServerType=dst_MSSQL2019)
+[2026-05-13 10:58:28] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-13 10:58:29] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-13 10:58:29] [INFO] Read 36 CSHS rows; expanded to 59 CSV rows (one per trigger when multi-trigger)
+[2026-05-13 10:58:29] [INFO] === Done. Exported 59 records ===
+[2026-05-13 10:58:29] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_105820.csv
+[2026-05-13 20:10:46] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-13 20:10:46] [INFO] Server   : 10.10.10.115
+[2026-05-13 20:10:46] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-13 20:10:46] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_201046.csv
+[2026-05-13 20:10:46] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_UAT
+[2026-05-13 20:10:46] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-13 20:10:46] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-13 20:10:46] [INFO] Loaded SHS1 triggers for 6 CSHS row(s)
+[2026-05-13 20:10:47] [INFO] Read 36 CSHS rows; expanded to 46 CSV rows
+[2026-05-13 20:10:47] [INFO] === Done. Exported 46 records ===
+[2026-05-13 20:10:47] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260513_201046.csv
+[2026-05-14 00:46:16] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-14 00:46:16] [INFO] Server   : 10.10.10.115
+[2026-05-14 00:46:16] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-14 00:46:16] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_004616.csv
+[2026-05-14 00:46:16] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_UAT
+[2026-05-14 00:46:16] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-14 00:46:17] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-14 00:46:17] [INFO] Loaded SHS1 triggers for 54 CSHS row(s)
+[2026-05-14 00:46:17] [INFO] Read 102 CSHS rows; expanded to 156 CSV rows
+[2026-05-14 00:46:17] [INFO] === Done. Exported 156 records ===
+[2026-05-14 00:46:17] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_004616.csv
+[2026-05-14 11:03:14] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-14 11:03:14] [INFO] Server   : 10.10.10.115
+[2026-05-14 11:03:14] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-14 11:03:14] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_110314.csv
+[2026-05-14 11:03:15] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_UAT
+[2026-05-14 11:03:15] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-14 11:03:16] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-14 11:03:16] [INFO] Loaded SHS1 triggers for 54 CSHS row(s)
+[2026-05-14 11:03:16] [INFO] Filter: WHERE FormID = @fid (fid='143' iid='' cid='')
+[2026-05-14 11:03:16] [INFO] Read 6 CSHS rows; expanded to 11 CSV rows
+[2026-05-14 11:03:16] [INFO] === Done. Exported 11 records ===
+[2026-05-14 11:03:16] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_110314.csv
+[2026-05-14 11:05:03] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-14 11:05:03] [INFO] Server   : 10.10.10.115
+[2026-05-14 11:05:03] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-14 11:05:03] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_110503.csv
+[2026-05-14 11:05:03] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_UAT
+[2026-05-14 11:05:03] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-14 11:05:04] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-14 11:05:04] [INFO] Loaded SHS1 triggers for 54 CSHS row(s)
+[2026-05-14 11:05:04] [INFO] Filter: WHERE FormID = @fid (fid='149' iid='' cid='')
+[2026-05-14 11:05:04] [INFO] Read 6 CSHS rows; expanded to 12 CSV rows
+[2026-05-14 11:05:04] [INFO] === Done. Exported 12 records ===
+[2026-05-14 11:05:04] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_110503.csv
+[2026-05-14 12:57:04] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-14 12:57:04] [INFO] Server   : 10.10.10.115
+[2026-05-14 12:57:04] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-14 12:57:04] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_125704.csv
+[2026-05-14 12:57:05] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_UAT
+[2026-05-14 12:57:05] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-14 12:57:06] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-14 12:57:06] [INFO] Loaded SHS1 triggers for 52 CSHS row(s)
+[2026-05-14 12:57:06] [INFO] Filter: WHERE FormID = @fid (fid='149' iid='' cid='')
+[2026-05-14 12:57:06] [INFO] Read 6 CSHS rows; expanded to 11 CSV rows
+[2026-05-14 12:57:06] [INFO] === Done. Exported 11 records ===
+[2026-05-14 12:57:06] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_125704.csv
+[2026-05-14 13:28:37] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-14 13:28:37] [INFO] Server   : 10.10.10.115
+[2026-05-14 13:28:37] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-14 13:28:37] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_132837.csv
+[2026-05-14 13:28:37] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_UAT
+[2026-05-14 13:28:37] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-14 13:28:38] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-14 13:28:38] [INFO] Loaded SHS1 triggers for 65 CSHS row(s)
+[2026-05-14 13:28:38] [INFO] Filter: WHERE FormID = @fid (fid='139' iid='' cid='')
+[2026-05-14 13:28:38] [INFO] Read 6 CSHS rows; expanded to 11 CSV rows
+[2026-05-14 13:28:38] [INFO] === Done. Exported 11 records ===
+[2026-05-14 13:28:38] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260514_132837.csv
+[2026-05-15 09:51:24] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-15 09:51:24] [INFO] Server   : 10.10.10.115
+[2026-05-15 09:51:24] [INFO] CompanyDB: SBO_SDA_UAT
+[2026-05-15 09:51:24] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260515_095124.csv
+[2026-05-15 09:51:24] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_UAT
+[2026-05-15 09:51:25] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-15 09:51:25] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-15 09:51:25] [INFO] Loaded SHS1 triggers for 57 CSHS row(s)
+[2026-05-15 09:51:25] [INFO] Filter: (none — exporting all CSHS rows)
+[2026-05-15 09:51:25] [INFO] Read 120 CSHS rows; expanded to 202 CSV rows
+[2026-05-15 09:51:25] [INFO] === Done. Exported 202 records ===
+[2026-05-15 09:51:25] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260515_095124.csv
+[2026-05-20 16:39:08] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-20 16:39:08] [INFO] Server   : 10.10.10.115
+[2026-05-20 16:39:08] [INFO] CompanyDB: SBO_SDA_Training
+[2026-05-20 16:39:08] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260520_163908.csv
+[2026-05-20 16:39:08] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_Training
+[2026-05-20 16:39:08] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-20 16:39:09] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-20 16:39:09] [INFO] Loaded SHS1 triggers for 73 CSHS row(s)
+[2026-05-20 16:39:09] [INFO] Filter: WHERE FormID = @fid (fid='139' iid='' cid='')
+[2026-05-20 16:39:09] [INFO] Read 6 CSHS rows; expanded to 11 CSV rows
+[2026-05-20 16:39:09] [INFO] === Done. Exported 11 records ===
+[2026-05-20 16:39:09] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260520_163908.csv
+[2026-05-21 11:46:40] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-21 11:46:40] [INFO] Server   : 10.10.10.115
+[2026-05-21 11:46:40] [INFO] CompanyDB: SBO_SDA_TestAll
+[2026-05-21 11:46:40] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260521_114640.csv
+[2026-05-21 11:46:40] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_TestAll
+[2026-05-21 11:46:40] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-21 11:46:41] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-21 11:46:41] [INFO] Loaded SHS1 triggers for 71 CSHS row(s)
+[2026-05-21 11:46:41] [INFO] Filter: (none — exporting all CSHS rows)
+[2026-05-21 11:46:41] [INFO] Read 121 CSHS rows; expanded to 202 CSV rows
+[2026-05-21 11:46:41] [INFO] === Done. Exported 202 records ===
+[2026-05-21 11:46:41] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260521_114640.csv
+[2026-05-25 16:03:01] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-25 16:03:01] [INFO] Server   : 10.10.10.115
+[2026-05-25 16:03:01] [INFO] CompanyDB: SBO_SDA_Training
+[2026-05-25 16:03:01] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260525_160301.csv
+[2026-05-25 16:03:01] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_Training
+[2026-05-25 16:03:01] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-25 16:03:02] [INFO] Loaded 304 saved queries from OUQR
+[2026-05-25 16:03:02] [INFO] Loaded SHS1 triggers for 73 CSHS row(s)
+[2026-05-25 16:03:02] [INFO] Filter: (none — exporting all CSHS rows)
+[2026-05-25 16:03:02] [INFO] Read 120 CSHS rows; expanded to 202 CSV rows
+[2026-05-25 16:03:02] [INFO] === Done. Exported 202 records ===
+[2026-05-25 16:03:02] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Scripts\..\Config\UDV_Export_20260525_160301.csv
+[2026-05-25 17:12:47] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-25 17:12:47] [INFO] Server   : 10.10.10.115
+[2026-05-25 17:12:47] [INFO] CompanyDB: SBO_SDA_Training
+[2026-05-25 17:12:47] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260525_171247.csv
+[2026-05-25 17:12:48] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_Training
+[2026-05-25 17:12:48] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-25 17:12:48] [INFO] Loaded 299 saved queries from OUQR
+[2026-05-25 17:12:48] [INFO] Loaded SHS1 triggers for 16 CSHS row(s)
+[2026-05-25 17:12:48] [INFO] Filter: (none — exporting all CSHS rows)
+[2026-05-25 17:12:48] [INFO] Read 22 CSHS rows; expanded to 23 CSV rows
+[2026-05-25 17:12:48] [INFO] === Done. Exported 23 records ===
+[2026-05-25 17:12:48] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260525_171247.csv
+[2026-05-25 17:13:31] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-25 17:13:31] [INFO] Server   : 10.10.10.115
+[2026-05-25 17:13:31] [INFO] CompanyDB: SBO_SDA_Training
+[2026-05-25 17:13:31] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260525_171331.csv
+[2026-05-25 17:13:31] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_Training
+[2026-05-25 17:13:31] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-25 17:13:31] [INFO] Loaded 299 saved queries from OUQR
+[2026-05-25 17:13:31] [INFO] Loaded SHS1 triggers for 16 CSHS row(s)
+[2026-05-25 17:13:31] [INFO] Filter: (none — exporting all CSHS rows)
+[2026-05-25 17:13:31] [INFO] Read 22 CSHS rows; expanded to 23 CSV rows
+[2026-05-25 17:13:31] [INFO] === Done. Exported 23 records ===
+[2026-05-25 17:13:31] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260525_171331.csv
+[2026-05-28 14:50:05] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-28 14:50:05] [INFO] Server   : 10.10.10.115
+[2026-05-28 14:50:05] [INFO] CompanyDB: SBO_SDA_REAL
+[2026-05-28 14:50:05] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260528_145005.csv
+[2026-05-28 14:50:06] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_REAL
+[2026-05-28 14:50:06] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-28 14:50:06] [INFO] Loaded 303 saved queries from OUQR
+[2026-05-28 14:50:06] [INFO] Loaded SHS1 triggers for 32 CSHS row(s)
+[2026-05-28 14:50:06] [INFO] Filter: WHERE FormID = @fid (fid='142' iid='' cid='')
+[2026-05-28 14:50:06] [INFO] Read 4 CSHS rows; expanded to 9 CSV rows
+[2026-05-28 14:50:06] [INFO] === Done. Exported 9 records ===
+[2026-05-28 14:50:06] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260528_145005.csv
+[2026-05-28 14:50:44] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-28 14:50:44] [INFO] Server   : 10.10.10.115
+[2026-05-28 14:50:45] [INFO] CompanyDB: SBO_SDA_REAL
+[2026-05-28 14:50:45] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260528_145044.csv
+[2026-05-28 14:50:45] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_REAL
+[2026-05-28 14:50:45] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-28 14:50:45] [INFO] Loaded 303 saved queries from OUQR
+[2026-05-28 14:50:45] [INFO] Loaded SHS1 triggers for 32 CSHS row(s)
+[2026-05-28 14:50:45] [INFO] Filter: (none — exporting all CSHS rows)
+[2026-05-28 14:50:45] [INFO] Read 40 CSHS rows; expanded to 46 CSV rows
+[2026-05-28 14:50:45] [INFO] === Done. Exported 46 records ===
+[2026-05-28 14:50:45] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260528_145044.csv
+[2026-05-28 16:33:32] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-05-28 16:33:32] [INFO] Server   : 10.10.10.115
+[2026-05-28 16:33:32] [INFO] CompanyDB: SBO_SDA_KEY
+[2026-05-28 16:33:32] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260528_163332.csv
+[2026-05-28 16:33:32] [INFO] Connected to SQL: 10.10.10.115 / SBO_SDA_KEY
+[2026-05-28 16:33:32] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-05-28 16:33:32] [INFO] Loaded 305 saved queries from OUQR
+[2026-05-28 16:33:32] [INFO] Loaded SHS1 triggers for 57 CSHS row(s)
+[2026-05-28 16:33:32] [INFO] Filter: WHERE FormID = @fid (fid='139' iid='' cid='')
+[2026-05-28 16:33:33] [INFO] Read 4 CSHS rows; expanded to 9 CSV rows
+[2026-05-28 16:33:33] [INFO] === Done. Exported 9 records ===
+[2026-05-28 16:33:33] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260528_163332.csv
+[2026-06-17 20:33:13] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-06-17 20:33:13] [INFO] Server   : 172.20.10.4
+[2026-06-17 20:33:13] [INFO] CompanyDB: SBO_SDA_Real
+[2026-06-17 20:33:13] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260617_203313.csv
+[2026-06-17 20:33:14] [INFO] Connected to SQL: 172.20.10.4 / SBO_SDA_Real
+[2026-06-17 20:33:14] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-06-17 20:33:14] [INFO] Loaded 306 saved queries from OUQR
+[2026-06-17 20:33:14] [INFO] Loaded SHS1 triggers for 62 CSHS row(s)
+[2026-06-17 20:33:14] [INFO] Filter: (none — exporting all CSHS rows)
+[2026-06-17 20:33:14] [INFO] Read 99 CSHS rows; expanded to 145 CSV rows
+[2026-06-17 20:33:14] [INFO] === Done. Exported 145 records ===
+[2026-06-17 20:33:14] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260617_203313.csv
+[2026-06-17 21:20:23] [INFO] === Start UDV/FMS Export (SQL Direct) ===
+[2026-06-17 21:20:23] [INFO] Server   : 172.20.10.4
+[2026-06-17 21:20:23] [INFO] CompanyDB: SBO_SDA_Real
+[2026-06-17 21:20:23] [INFO] OutFile  : C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260617_212023.csv
+[2026-06-17 21:20:23] [INFO] Connected to SQL: 172.20.10.4 / SBO_SDA_Real
+[2026-06-17 21:20:24] [INFO] CSHS columns (10): ActionT, ByField, ColID, FieldID, FormID, FrceRfrsh, IndexID, ItemID, QueryId, Refresh
+[2026-06-17 21:20:24] [INFO] Loaded 306 saved queries from OUQR
+[2026-06-17 21:20:24] [INFO] Loaded SHS1 triggers for 62 CSHS row(s)
+[2026-06-17 21:20:24] [INFO] Filter: (none — exporting all CSHS rows)
+[2026-06-17 21:20:24] [INFO] Read 99 CSHS rows; expanded to 145 CSV rows
+[2026-06-17 21:20:24] [INFO] === Done. Exported 145 records ===
+[2026-06-17 21:20:24] [INFO] Output: C:\GitHub\SDA\Form-Layout\ImportUDV\Export\Scripts\..\..\Config\UDV_Export_20260617_212023.csv

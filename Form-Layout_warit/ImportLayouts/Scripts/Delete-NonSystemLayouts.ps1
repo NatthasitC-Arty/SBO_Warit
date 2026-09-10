@@ -10,14 +10,31 @@ param(
     [string]$DBUser     = "sa",
     [Parameter(Mandatory=$true)][string]$DBPassword,
     [string]$SystemAuthor = "System",
+    # TST / Thai tax report layouts are PROTECTED by TypeCode (never deleted),
+    # regardless of Author. The standard SAP tax layouts carry Author='manager'
+    # (NOT 'System'), so an author-only filter would wipe them. A001-A009 =
+    # Tax Report / P.P.30 / P.N.D.3 / P.N.D.53 and their attachments.
+    [string[]]$KeepTypeCode = @(1..9 | ForEach-Object { 'A{0:D3}' -f $_ }),
     [switch]$DryRun,
     [switch]$Force
 )
+
+# Build the "rows to delete" predicate. NOTE: the Author test MUST stay
+# parenthesised -- AND binds tighter than OR, so without the parens the
+# TypeCode exclusion would only apply to the "Author IS NULL" branch.
+$keepClause = ""
+$inList = ""
+if ($KeepTypeCode -and $KeepTypeCode.Count -gt 0) {
+    $inList = ($KeepTypeCode | ForEach-Object { "'" + ($_ -replace "'","''") + "'" }) -join ","
+    $keepClause = " AND TypeCode NOT IN ($inList)"
+}
+$delPredicate = "(Author<>@a OR Author IS NULL)$keepClause"
 
 Write-Host "=== Delete non-system layouts from RDOC ===" -ForegroundColor Cyan
 Write-Host "Server      : $Server"
 Write-Host "CompanyDB   : $CompanyDB"
 Write-Host "Keep Author : '$SystemAuthor'"
+if ($keepClause) { Write-Host ("Keep TypeCode: {0}  (PROTECTED, incl. TST)" -f ($KeepTypeCode -join ',')) -ForegroundColor Green }
 Write-Host ""
 
 $cs = "Server=$Server;Database=$CompanyDB;User ID=$DBUser;Password=$DBPassword;Connection Timeout=10;"
@@ -39,10 +56,18 @@ $sysCount = $sysCmd.ExecuteScalar()
 Write-Host ("Rows with Author='$SystemAuthor' (KEEP) : {0}" -f $sysCount) -ForegroundColor Green
 
 $delCmd = $conn.CreateCommand()
-$delCmd.CommandText = "SELECT COUNT(*) FROM RDOC WHERE Author<>@a OR Author IS NULL"
+$delCmd.CommandText = "SELECT COUNT(*) FROM RDOC WHERE $delPredicate"
 [void]$delCmd.Parameters.AddWithValue("@a", $SystemAuthor)
 $delCount = $delCmd.ExecuteScalar()
 Write-Host ("Rows to DELETE            : {0}" -f $delCount) -ForegroundColor Yellow
+
+if ($keepClause) {
+    $protCmd = $conn.CreateCommand()
+    $protCmd.CommandText = "SELECT COUNT(*) FROM RDOC WHERE (Author<>@a OR Author IS NULL) AND TypeCode IN ($inList)"
+    [void]$protCmd.Parameters.AddWithValue("@a", $SystemAuthor)
+    $protCount = $protCmd.ExecuteScalar()
+    Write-Host ("Non-system but PROTECTED  : {0}  (TST / tax reports, kept)" -f $protCount) -ForegroundColor Green
+}
 Write-Host ""
 
 if ($delCount -eq 0) {
@@ -56,7 +81,7 @@ $prev = $conn.CreateCommand()
 $prev.CommandText = @"
 SELECT Author, TypeCode, COUNT(*) AS Cnt
 FROM RDOC
-WHERE Author<>@a OR Author IS NULL
+WHERE $delPredicate
 GROUP BY Author, TypeCode
 ORDER BY Author, TypeCode
 "@
@@ -90,7 +115,7 @@ try {
         try {
             $c = $conn.CreateCommand()
             $c.Transaction = $tran
-            $c.CommandText = "DELETE FROM dbo.$tbl WHERE DocCode IN (SELECT DocCode FROM RDOC WHERE Author<>@a OR Author IS NULL)"
+            $c.CommandText = "DELETE FROM dbo.$tbl WHERE DocCode IN (SELECT DocCode FROM RDOC WHERE $delPredicate)"
             [void]$c.Parameters.AddWithValue("@a", $SystemAuthor)
             $c.CommandTimeout = 300
             $cn = $c.ExecuteNonQuery()
@@ -103,7 +128,7 @@ try {
     # Delete RDOC parent rows
     $exec = $conn.CreateCommand()
     $exec.Transaction = $tran
-    $exec.CommandText = "DELETE FROM RDOC WHERE Author<>@a OR Author IS NULL"
+    $exec.CommandText = "DELETE FROM RDOC WHERE $delPredicate"
     [void]$exec.Parameters.AddWithValue("@a", $SystemAuthor)
     $exec.CommandTimeout = 300
     $n = $exec.ExecuteNonQuery()

@@ -1,0 +1,32 @@
+﻿[2026-08-31 14:17:10][INFO] === Set-DatasourceLocation start ===
+[2026-08-31 14:17:10][INFO] Path=C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order  NewServer=172.17.0.22  OldServer=  NewDatabase=SBO_Seoul_Clinic_API  NewUser=  WhatIf=False
+[2026-08-31 14:17:10][INFO] Found 2 report file(s).
+[2026-08-31 14:17:10][INFO] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-08-31 14:17:12][OK]   [main] 'AR_SO' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic_API
+[2026-08-31 14:17:12][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic_API
+[2026-08-31 14:17:12][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic_API
+[2026-08-31 14:17:12][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic_API
+[2026-08-31 14:17:12][OK]   saved 4 table(s)
+[2026-08-31 14:17:12][INFO] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\3.Sale Order_ใบสั่งขาย_(Bomm)\2.Sale Order_ใบสั่งขาย_(Bom).rpt
+[2026-08-31 14:17:13][OK]   [main] 'AR_SO' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic_API
+[2026-08-31 14:17:13][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic_API
+[2026-08-31 14:17:13][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic_API
+[2026-08-31 14:17:13][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic_API
+[2026-08-31 14:17:13][OK]   saved 4 table(s)
+[2026-08-31 14:17:13][INFO] === Done. ok=2  err=0  skipped=0  total=2 ===
+[2026-08-31 14:18:17][INFO] === Set-DatasourceLocation start ===
+[2026-08-31 14:18:17][INFO] Path=C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order  NewServer=172.17.0.22  OldServer=  NewDatabase=SBO_Seoul_Clinic  NewUser=  WhatIf=False
+[2026-08-31 14:18:17][INFO] Found 2 report file(s).
+[2026-08-31 14:18:17][INFO] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-08-31 14:18:19][OK]   [main] 'AR_SO' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic
+[2026-08-31 14:18:19][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic
+[2026-08-31 14:18:19][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic
+[2026-08-31 14:18:19][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic
+[2026-08-31 14:18:19][OK]   saved 4 table(s)
+[2026-08-31 14:18:19][INFO] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\3.Sale Order_ใบสั่งขาย_(Bomm)\2.Sale Order_ใบสั่งขาย_(Bom).rpt
+[2026-08-31 14:18:20][OK]   [main] 'AR_SO' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic
+[2026-08-31 14:18:20][OK]   [main] 'Address' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic
+[2026-08-31 14:18:20][OK]   [main] 'Create' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic
+[2026-08-31 14:18:20][OK]   [main] 'Approve' server '172.17.0.22' -> '172.17.0.22' db SBO_Seoul_Clinic_API -> SBO_Seoul_Clinic
+[2026-08-31 14:18:21][OK]   saved 4 table(s)
+[2026-08-31 14:18:21][INFO] === Done. ok=2  err=0  skipped=0  total=2 ===

@@ -1,0 +1,492 @@
+﻿[2026-09-01 12:13:32][INFO] === Fix-ReportSql start  mode=APPLY  transforms=T1-Approver,T2-ProjectJoin,T3-DownPaymentObjType ===
+[2026-09-01 12:13:32][INFO] Path=C:\GitHub\SDA\Form-Layout_SDA  files=64
+[2026-09-01 12:13:33][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\1. Financials\1.Journal Entry_ใบบันทึกรายการบัญชี\1.Journal Entry_ใบบันทึกรายการบัญชี.rpt
+[2026-09-01 12:13:33][INFO]     [main] Bank_JE : T2  7826 -> 8027 chars  User=''
+[2026-09-01 12:13:34][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:35][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(BOM) ENG.rpt
+[2026-09-01 12:13:35][INFO]     [main] Approve : T1  428 -> 499 chars  User='sa'
+[2026-09-01 12:13:37][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:37][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:13:37][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(Bom).rpt
+[2026-09-01 12:13:37][INFO]     [main] Approve : T1  466 -> 539 chars  User='sa'
+[2026-09-01 12:13:38][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:38][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:13:39][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG.rpt
+[2026-09-01 12:13:39][INFO]     [main] Approve : T1  428 -> 499 chars  User='sa'
+[2026-09-01 12:13:39][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:39][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:13:40][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-09-01 12:13:40][INFO]     [main] Approve : T1  466 -> 539 chars  User='sa'
+[2026-09-01 12:13:41][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:41][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:13:44][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:13:45][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:13:45][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:13:45][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:13:45][INFO]     [main] AR_Retrun_BS : T2  8182 -> 8982 chars  User='sa'
+[2026-09-01 12:13:45][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:13:46][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:13:46][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:47][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:13:47][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_ENG (Batch_Serial).rpt
+[2026-09-01 12:13:47][INFO]     [main] AR_Retrun_BS : T2  9020 -> 9816 chars  User='sa'
+[2026-09-01 12:13:47][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:13:47][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:13:48][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:49][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_BOM ใบเสร็จรับเงินมัดจำ.rpt
+[2026-09-01 12:13:49][INFO]     [main] Command : T1+T3  1515 -> 1670 chars  User=''
+[2026-09-01 12:13:50][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:50][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_BOM_ENG ใบเสร็จรับเงินมัดจำ.rpt
+[2026-09-01 12:13:50][INFO]     [main] Command : T1+T3  1453 -> 1608 chars  User=''
+[2026-09-01 12:13:51][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:51][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_BOM ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:13:51][INFO]     [main] Command : T1+T3  1515 -> 1670 chars  User=''
+[2026-09-01 12:13:53][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:53][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_BOM_ENG ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:13:53][INFO]     [main] Command : T1+T3  1453 -> 1608 chars  User=''
+[2026-09-01 12:13:54][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:55][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down Payment Invoice_BOM ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:13:55][INFO]     [main] Command : T1+T3  1515 -> 1670 chars  User=''
+[2026-09-01 12:13:56][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:56][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_BOM_ENG ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:13:56][INFO]     [main] Command : T1+T3  1453 -> 1608 chars  User=''
+[2026-09-01 12:13:58][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:13:58][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\1.AR Invoice_ENG ใบแจ้งหนี้_(Dis).rpt
+[2026-09-01 12:13:58][INFO]     [main] AR_INV : T2  12684 -> 13496 chars  User=''
+[2026-09-01 12:13:58][INFO]     [main] Approve : T1  958 -> 1027 chars  User=''
+[2026-09-01 12:13:59][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:00][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\1.AR Invoice_ใบแจ้งหนี้_(Dis).rpt
+[2026-09-01 12:14:00][INFO]     [main] AR_INV : T2  12212 -> 13024 chars  User=''
+[2026-09-01 12:14:00][INFO]     [main] Approve : T1  958 -> 1027 chars  User=''
+[2026-09-01 12:14:01][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:02][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\2.BillingAR InvoiceTax Invoice_ENG ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-09-01 12:14:02][INFO]     [main] AR_INV : T2  12680 -> 13492 chars  User='sa'
+[2026-09-01 12:14:02][INFO]     [main] Approve : T1  958 -> 1027 chars  User='sa'
+[2026-09-01 12:14:03][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:03][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\2.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-09-01 12:14:03][INFO]     [main] AR_INV : T2  12216 -> 13028 chars  User='sa'
+[2026-09-01 12:14:03][INFO]     [main] Approve : T1  958 -> 1027 chars  User='sa'
+[2026-09-01 12:14:05][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:05][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\3.BillingAR Invoice_ENG ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-09-01 12:14:05][INFO]     [main] AR_INV : T2  12802 -> 13614 chars  User='sa'
+[2026-09-01 12:14:05][INFO]     [main] Approve : T1  958 -> 1027 chars  User='sa'
+[2026-09-01 12:14:06][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:07][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\3.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-09-01 12:14:07][INFO]     [main] AR_INV : T2  12216 -> 13028 chars  User='sa'
+[2026-09-01 12:14:07][INFO]     [main] Approve : T1  958 -> 1027 chars  User='sa'
+[2026-09-01 12:14:08][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:09][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:09][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\1.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis).rpt
+[2026-09-01 12:14:09][INFO]     [main] Approve : T1  962 -> 1031 chars  User=''
+[2026-09-01 12:14:09][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:10][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:10][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:14:11][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:11][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\1.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) (Dis).rpt
+[2026-09-01 12:14:11][INFO]     [main] Approve : T1  1021 -> 1090 chars  User=''
+[2026-09-01 12:14:11][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:12][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:12][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:14:13][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\2. Purchase Quotation\1.Purchase Quotation_ใบเสนอราคาซื้อ\1.Purchase Quotation_ใบเสนอราคาซื้อ.rpt
+[2026-09-01 12:14:13][INFO]     [main] AP_PQ : T2  13902 -> 14714 chars  User=''
+[2026-09-01 12:14:13][INFO]     [main] Approve : T1  965 -> 1034 chars  User=''
+[2026-09-01 12:14:15][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:15][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_ENG_ใบสั่งซื้อ.rpt
+[2026-09-01 12:14:15][INFO]     [main] AP_PO : T2  22468 -> 23416 chars  User='sa'
+[2026-09-01 12:14:15][INFO]     [main] Approve : T1  427 -> 500 chars  User='sa'
+[2026-09-01 12:14:17][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:17][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_ENG_ใบสั่งซื้อEdit.rpt
+[2026-09-01 12:14:17][INFO]     [main] AP_PO : T2  22674 -> 23622 chars  User='sa'
+[2026-09-01 12:14:17][INFO]     [main] Approve : T1  427 -> 500 chars  User='sa'
+[2026-09-01 12:14:18][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:19][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_TH_ใบสั่งซื้อ.rpt
+[2026-09-01 12:14:19][INFO]     [main] AP_PO : T2  22068 -> 23016 chars  User='sa'
+[2026-09-01 12:14:19][INFO]     [main] Approve : T1  466 -> 539 chars  User='sa'
+[2026-09-01 12:14:20][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:21][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:21][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\4. Goods Receipt PO\2.Goods Receive PO_TH_ใบรับสินค้า_(Batch_Serial) - Copy\1.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:14:21][INFO]     [main] AP_GRPO_BN : T2  14210 -> 15022 chars  User='sa'
+[2026-09-01 12:14:21][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:22][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:22][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:14:22][ERR]     subreport 'batch&serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:22][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\5. Goods Return\2.Goods Return_EN_ใบส่งคืนสินค้า_(Batch_Serial)\1.Goods Return_TH_ใบส่งคืนสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:14:22][INFO]     [main] AP_GR_BN : T2  13444 -> 14256 chars  User='sa'
+[2026-09-01 12:14:22][ERR]     subreport 'batch&serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:24][ERR]     subreport 'batch&serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:24][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:14:24][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ENG ใบจ่ายเงินมัดจำ.rpt
+[2026-09-01 12:14:24][INFO]     [main] AP_DownPayment : T2  29050 -> 29866 chars  User=''
+[2026-09-01 12:14:24][INFO]     [main] Approve : T1  971 -> 1040 chars  User=''
+[2026-09-01 12:14:25][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:26][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ใบจ่ายเงินมัดจำ.rpt
+[2026-09-01 12:14:26][INFO]     [main] AP_DownPayment : T2  26322 -> 27138 chars  User=''
+[2026-09-01 12:14:26][INFO]     [main] Approve : T1  971 -> 1040 chars  User=''
+[2026-09-01 12:14:27][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:28][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ENG ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:14:28][INFO]     [main] AP_DownPayment : T2  29050 -> 29866 chars  User=''
+[2026-09-01 12:14:28][INFO]     [main] Approve : T1  971 -> 1040 chars  User=''
+[2026-09-01 12:14:29][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:30][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:14:30][INFO]     [main] AP_DownPayment : T2  26202 -> 27018 chars  User=''
+[2026-09-01 12:14:30][INFO]     [main] Approve : T1  971 -> 1040 chars  User=''
+[2026-09-01 12:14:31][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:31][ERR]     subreport 'batch&sserial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:31][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\7. AP Invoice\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial)\1.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt
+[2026-09-01 12:14:31][INFO]     [main] AP_INV_BN : T2  12632 -> 13444 chars  User='sa'
+[2026-09-01 12:14:31][INFO]     [main] Approve : T1  958 -> 1027 chars  User='sa'
+[2026-09-01 12:14:31][ERR]     subreport 'batch&sserial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:33][ERR]     subreport 'batch&sserial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:33][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:34][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\8. AP Credit Memo\1.AP Credit Memo_ใบลดหนี้\1.AP Credit Memo_ใบลดหนี้.rpt
+[2026-09-01 12:14:34][INFO]     [main] AP_CN : T2  14846 -> 15658 chars  User=''
+[2026-09-01 12:14:34][INFO]     [main] Approve : T1  962 -> 1031 chars  User=''
+[2026-09-01 12:14:36][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:36][ERR]     subreport 'Landed_Cost' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:37][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:38][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:39][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:40][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'Bank' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'Cash' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'Credit Card' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'JE' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'Report' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'TranFer' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ENG ใบจ่ายชำระ.rpt
+[2026-09-01 12:14:41][INFO]     [main] Approve : T1  966 -> 1035 chars  User=''
+[2026-09-01 12:14:41][ERR]     subreport 'Bank' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'Cash' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'Credit Card' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'JE' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'Report' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:41][ERR]     subreport 'TranFer' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:42][ERR]     subreport 'Bank' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:42][ERR]     subreport 'Cash' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:42][ERR]     subreport 'Credit Card' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:42][ERR]     subreport 'JE' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:42][ERR]     subreport 'Report' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:42][ERR]     subreport 'TranFer' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:43][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:14:44][ERR]     subreport 'Bank' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'Cash' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'Credit Card' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'JE' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'Report' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'TranFer' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\4. Banking\2. Outgoing Payments\1.Outgoing Payments_ใบจ่ายชำระ\1.Outgoing Payments_ใบจ่ายชำระ.rpt
+[2026-09-01 12:14:44][INFO]     [main] Approve : T1  966 -> 1035 chars  User=''
+[2026-09-01 12:14:44][ERR]     subreport 'Bank' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'Cash' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'Credit Card' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'JE' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'Report' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:44][ERR]     subreport 'TranFer' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:45][ERR]     subreport 'Bank' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:45][ERR]     subreport 'Cash' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:45][ERR]     subreport 'Credit Card' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:45][ERR]     subreport 'JE' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:45][ERR]     subreport 'Report' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:45][ERR]     subreport 'TranFer' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:46][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:14:46][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:46][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\1.Goods Receipt_ENG ใบรับสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:14:46][INFO]     [main] G_Receipt : T2  6638 -> 7450 chars  User='sa'
+[2026-09-01 12:14:47][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:48][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:48][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:14:49][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:49][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\1.Goods Receipt_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:14:49][INFO]     [main] G_Receipt : T2  4600 -> 5412 chars  User='sa'
+[2026-09-01 12:14:49][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:50][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:50][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:14:51][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:51][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\1.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:14:51][INFO]     [main] G_Issue_BS : T2  5965 -> 6777 chars  User='sa'
+[2026-09-01 12:14:51][INFO]     [main] Approve : T1  958 -> 1027 chars  User='sa'
+[2026-09-01 12:14:51][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:52][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:52][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:53][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:53][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\1.Goods Issue_ใบเบิกสินค้า_ENG (Batch_Serial).rpt
+[2026-09-01 12:14:53][INFO]     [main] G_Issue_BS : T2  6261 -> 7073 chars  User='sa'
+[2026-09-01 12:14:53][INFO]     [main] Approve : T1  958 -> 1027 chars  User='sa'
+[2026-09-01 12:14:53][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:54][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:54][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:55][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\3. Inventory Transfer Request\1.Inventory Transfer Request_ใบขอโอนสินค้า\1.Inventory Transfer Request_ใบขอโอนสินค้า.rpt
+[2026-09-01 12:14:55][INFO]     [main] Transfer_Re : T2  3812 -> 4624 chars  User='sa'
+[2026-09-01 12:14:55][INFO]     [main] Approve : T1  973 -> 1042 chars  User='sa'
+[2026-09-01 12:14:56][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:14:57][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:57][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\1.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial).rpt
+[2026-09-01 12:14:57][INFO]     [main] Transfer : T2  5118 -> 5930 chars  User='sa'
+[2026-09-01 12:14:57][INFO]     [main] Approve : T1  965 -> 1034 chars  User='sa'
+[2026-09-01 12:14:57][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:58][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:14:58][OK]     verified on disk: 2 command(s) rewritten
+[2026-09-01 12:15:03][ERR]     subreport 'B/S Number' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:15:04][ERR]     subreport 'B/S Num' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:15:07][INFO] ==============================================================
+[2026-09-01 12:15:07][INFO] NEEDS DESIGNER UPDATE (4):
+[2026-09-01 12:15:07][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(BOM) ENG.rpt
+[2026-09-01 12:15:07][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(Bom).rpt
+[2026-09-01 12:15:07][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG.rpt
+[2026-09-01 12:15:07][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-09-01 12:15:07][INFO] SUMMARY mode=APPLY  files=64  changed=41  skipped=23  failed=0  commands=61  T1=34  T2=27  T3=6  newlyPoisoned=4
+[2026-09-01 12:15:07][INFO] ==============================================================
+[2026-09-01 12:57:23][INFO] === Fix-ReportSql start  mode=APPLY  transforms=T4-ProjectName ===
+[2026-09-01 12:57:23][INFO] Path=C:\GitHub\SDA\Form-Layout_SDA  files=64
+[2026-09-01 12:57:24][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\1. Financials\1.Journal Entry_ใบบันทึกรายการบัญชี\1.Journal Entry_ใบบันทึกรายการบัญชี.rpt
+[2026-09-01 12:57:24][INFO]     [main] Bank_JE : T4  8027 -> 8127 chars  User=''
+[2026-09-01 12:57:25][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:25][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(BOM) ENG.rpt
+[2026-09-01 12:57:25][INFO]     [main] AR_SQ : T4  23212 -> 23642 chars  User='sa'
+[2026-09-01 12:57:26][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:26][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:57:27][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(Bom).rpt
+[2026-09-01 12:57:27][INFO]     [main] AR_SQ : T4  19994 -> 20424 chars  User='sa'
+[2026-09-01 12:57:28][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:28][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:57:29][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG.rpt
+[2026-09-01 12:57:29][INFO]     [main] AR_SQ : T4  17341 -> 18545 chars  User='sa'
+[2026-09-01 12:57:30][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:30][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:57:30][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-09-01 12:57:30][INFO]     [main] AR_SQ : T4  13987 -> 15031 chars  User='sa'
+[2026-09-01 12:57:31][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:31][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:57:32][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-09-01 12:57:32][INFO]     [main] AR_SO : T4  14283 -> 14683 chars  User='sa'
+[2026-09-01 12:57:33][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:33][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:57:33][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\3.Sale Order_ใบสั่งขาย_(Bomm)\2.Sale Order_ใบสั่งขาย_(Bom).rpt
+[2026-09-01 12:57:33][INFO]     [main] AR_SO : T4  14267 -> 14667 chars  User='sa'
+[2026-09-01 12:57:34][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:34][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:57:35][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:35][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\1.Delivery_ใบส่งของ_(Batch_Serial).rpt
+[2026-09-01 12:57:35][INFO]     [main] AR_Delivery_BS : T4  10196 -> 10600 chars  User='sa'
+[2026-09-01 12:57:35][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:36][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:36][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:36][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:57:37][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:37][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\1.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt
+[2026-09-01 12:57:37][INFO]     [main] AR_Delivery_BS : T4  9988 -> 10392 chars  User='sa'
+[2026-09-01 12:57:37][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:38][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:38][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:38][WARN]     1 table(s) now carry 'Database DLL' -- this file needs one Designer Set Datasource Location > Update
+[2026-09-01 12:57:39][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:39][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:57:39][INFO]     [main] AR_Retrun_BS : T4  8982 -> 9382 chars  User='sa'
+[2026-09-01 12:57:39][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:40][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:40][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:40][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:40][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\4. Return\2.Retrun_ใบรับคืนสินค้า_(Batch_Serial)\1.Retrun_ใบรับคืนสินค้า_ENG (Batch_Serial).rpt
+[2026-09-01 12:57:40][INFO]     [main] AR_Retrun_BS : T4  9816 -> 10216 chars  User='sa'
+[2026-09-01 12:57:40][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:41][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:57:41][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:42][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_BOM ใบเสร็จรับเงินมัดจำ.rpt
+[2026-09-01 12:57:42][INFO]     [main] AR_DownPayment : T4  23946 -> 24496 chars  User=''
+[2026-09-01 12:57:43][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:43][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\1.AR Down Payment_ใบเสร็จรับเงินมัดจำ\1.AR Down Payment_BOM_ENG ใบเสร็จรับเงินมัดจำ.rpt
+[2026-09-01 12:57:43][INFO]     [main] AR_DownPayment : T4  26778 -> 27178 chars  User=''
+[2026-09-01 12:57:44][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:45][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_BOM ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:57:45][INFO]     [main] AR_DownPayment : T4  23946 -> 24496 chars  User=''
+[2026-09-01 12:57:46][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:46][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\2.AR Down PaymentTax Invoice_ใบเสร็จรับเงินมัดจำใบกำกับภาษี\2.AR Down PaymentTax Invoice_BOM_ENG ใบเสร็จรับเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:57:46][INFO]     [main] AR_DownPayment : T4  26778 -> 27178 chars  User=''
+[2026-09-01 12:57:47][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:48][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down Payment Invoice_BOM ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:57:48][INFO]     [main] AR_DownPayment : T4  23946 -> 24496 chars  User=''
+[2026-09-01 12:57:49][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:50][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\5. AR Down Payment Invoice\3.AR Down Payment Invoice_ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี\3.AR Down PaymentTax Invoice_BOM_ENG ใบแจ้งหนี้เงินค่ามัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:57:50][INFO]     [main] AR_DownPayment : T4  26778 -> 27178 chars  User=''
+[2026-09-01 12:57:50][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:51][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\1.AR Invoice_ENG ใบแจ้งหนี้_(Dis).rpt
+[2026-09-01 12:57:51][INFO]     [main] AR_INV : T4  13496 -> 13896 chars  User=''
+[2026-09-01 12:57:53][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:53][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\2.AR Invoice_ใบแจ้งหนี้_(Dis)\1.AR Invoice_ใบแจ้งหนี้_(Dis).rpt
+[2026-09-01 12:57:53][INFO]     [main] AR_INV : T4  13024 -> 13424 chars  User=''
+[2026-09-01 12:57:55][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:55][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\2.BillingAR InvoiceTax Invoice_ENG ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-09-01 12:57:55][INFO]     [main] AR_INV : T4  13492 -> 13892 chars  User='sa'
+[2026-09-01 12:57:56][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:57][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\4.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis)\2.BillingAR InvoiceTax Invoice_ใบวางบิลใบแจ้งหนี้ใบกำกับภาษี (Dis).rpt
+[2026-09-01 12:57:57][INFO]     [main] AR_INV : T4  13028 -> 13428 chars  User='sa'
+[2026-09-01 12:57:58][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:57:59][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\3.BillingAR Invoice_ENG ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-09-01 12:57:59][INFO]     [main] AR_INV : T4  13614 -> 14014 chars  User='sa'
+[2026-09-01 12:58:00][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:00][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\6. AR Invoice\6.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis)\3.BillingAR Invoice_ใบวางบิลใบแจ้งหนี้ (Dis).rpt
+[2026-09-01 12:58:00][INFO]     [main] AR_INV : T4  13028 -> 13428 chars  User='sa'
+[2026-09-01 12:58:02][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:02][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:02][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\1.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis).rpt
+[2026-09-01 12:58:02][INFO]     [main] AR_CN : T4  14562 -> 14824 chars  User=''
+[2026-09-01 12:58:02][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:04][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:04][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:05][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:05][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\7. AR Credit Memo\4.AR_Credit Memo_ใบลดหนี้_(Batch_Serial) (Dis)\1.AR_Credit Memo_ใบลดหนี้_ENG (Batch_Serial) (Dis).rpt
+[2026-09-01 12:58:05][INFO]     [main] AR_CN : T4  15190 -> 15452 chars  User=''
+[2026-09-01 12:58:05][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:06][ERR]     subreport 'B/S' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:07][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:07][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\1. Purchase Request\1.Purchase Request_TH_ใบขอซื้อ\1.Purchase Request_TH_ใบขอซื้อ.rpt
+[2026-09-01 12:58:07][INFO]     [main] AP_PR : T4  19326 -> 19588 chars  User=''
+[2026-09-01 12:58:08][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:09][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\2. Purchase Quotation\1.Purchase Quotation_ใบเสนอราคาซื้อ\1.Purchase Quotation_ใบเสนอราคาซื้อ.rpt
+[2026-09-01 12:58:09][INFO]     [main] AP_PQ : T4  14714 -> 15114 chars  User=''
+[2026-09-01 12:58:11][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:11][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_ENG_ใบสั่งซื้อ.rpt
+[2026-09-01 12:58:11][INFO]     [main] AP_PO : T4  23416 -> 23816 chars  User='sa'
+[2026-09-01 12:58:13][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:14][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_ENG_ใบสั่งซื้อEdit.rpt
+[2026-09-01 12:58:14][INFO]     [main] AP_PO : T4  23622 -> 24022 chars  User='sa'
+[2026-09-01 12:58:15][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:15][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\3. Purchase Order\1.Purchase Order_TH_ใบสั่งซื้อ\1.Purchase Order_TH_ใบสั่งซื้อ.rpt
+[2026-09-01 12:58:15][INFO]     [main] AP_PO : T4  23016 -> 23416 chars  User='sa'
+[2026-09-01 12:58:17][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:17][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:17][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\4. Goods Receipt PO\2.Goods Receive PO_TH_ใบรับสินค้า_(Batch_Serial) - Copy\1.Goods Reciept PO_TH_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:58:17][INFO]     [main] AP_GRPO_BN : T4  15022 -> 15422 chars  User='sa'
+[2026-09-01 12:58:17][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:19][ERR]     subreport 'Batch/Serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:19][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:19][ERR]     subreport 'batch&serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:19][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\5. Goods Return\2.Goods Return_EN_ใบส่งคืนสินค้า_(Batch_Serial)\1.Goods Return_TH_ใบส่งคืนสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:58:19][INFO]     [main] AP_GR_BN : T4  14256 -> 14656 chars  User='sa'
+[2026-09-01 12:58:19][ERR]     subreport 'batch&serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:21][ERR]     subreport 'batch&serial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:21][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:21][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ENG ใบจ่ายเงินมัดจำ.rpt
+[2026-09-01 12:58:21][INFO]     [main] AP_DownPayment : T4  29866 -> 30266 chars  User=''
+[2026-09-01 12:58:22][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:23][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\1.AP Down Payment ใบจ่ายเงินมัดจำ\1.AP Down Payment_ใบจ่ายเงินมัดจำ.rpt
+[2026-09-01 12:58:23][INFO]     [main] AP_DownPayment : T4  27138 -> 27538 chars  User=''
+[2026-09-01 12:58:24][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:25][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ENG ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:58:25][INFO]     [main] AP_DownPayment : T4  29866 -> 30266 chars  User=''
+[2026-09-01 12:58:26][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:27][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\6. AP Down Payment Invoice\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำ_ใบแจ้งหนี้\2.AP Down Payment Invoice_ใบจ่ายเงินมัดจำใบกำกับภาษี.rpt
+[2026-09-01 12:58:27][INFO]     [main] AP_DownPayment : T4  27018 -> 27418 chars  User=''
+[2026-09-01 12:58:28][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:29][ERR]     subreport 'batch&sserial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:29][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\7. AP Invoice\2.AP Invoice_ใบแจ้งหนี้_(Batch_Serial)\1.AP Invoice_ใบแจ้งหนี้_(Batch_Serial).rpt
+[2026-09-01 12:58:29][INFO]     [main] AP_INV_BN : T4  13444 -> 13844 chars  User='sa'
+[2026-09-01 12:58:29][ERR]     subreport 'batch&sserial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:30][ERR]     subreport 'batch&sserial' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:31][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:31][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\3. Purchasing - AP\8. AP Credit Memo\1.AP Credit Memo_ใบลดหนี้\1.AP Credit Memo_ใบลดหนี้.rpt
+[2026-09-01 12:58:31][INFO]     [main] AP_CN : T4  15658 -> 16058 chars  User=''
+[2026-09-01 12:58:33][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:33][ERR]     subreport 'Landed_Cost' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:35][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:35][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_Eng ใบเสร็จรับเงิน.rpt
+[2026-09-01 12:58:35][INFO]     [main] Bank_Receipt : T4  6909 -> 7610 chars  User='sa'
+[2026-09-01 12:58:35][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:35][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:36][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:37][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:37][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\4. Banking\1. Incoming Payments\1.Incoming Payments_ใบเสร็จรับเงิน\1.Incoming Payments_ใบเสร็จรับเงิน.rpt
+[2026-09-01 12:58:37][INFO]     [main] Bank_Receipt : T4  6778 -> 7479 chars  User=''
+[2026-09-01 12:58:37][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:37][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:37][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:38][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:38][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ ENG ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-09-01 12:58:38][INFO]     [main] Bank_ReceiptTax : T4  11731 -> 12591 chars  User='sa'
+[2026-09-01 12:58:38][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:39][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:39][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:40][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:40][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\4. Banking\1. Incoming Payments\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี\2.Incoming Payments_ใบเสร็จรับเงินใบกำกับภาษี.rpt
+[2026-09-01 12:58:40][INFO]     [main] Bank_ReceiptTax : T4  11532 -> 12394 chars  User=''
+[2026-09-01 12:58:40][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:41][ERR]     subreport 'CheckNum' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:41][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:42][ERR]     subreport 'Bank' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:42][ERR]     subreport 'Cash' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:42][ERR]     subreport 'Credit Card' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:42][ERR]     subreport 'JE' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:42][ERR]     subreport 'Report' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:42][ERR]     subreport 'TranFer' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:43][ERR]     subreport 'Bank' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:43][ERR]     subreport 'Cash' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:43][ERR]     subreport 'Credit Card' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:43][ERR]     subreport 'JE' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:43][ERR]     subreport 'Report' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:43][ERR]     subreport 'TranFer' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:43][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:43][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\1.Goods Receipt_ENG ใบรับสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:58:43][INFO]     [main] G_Receipt : T4  7450 -> 7850 chars  User='sa'
+[2026-09-01 12:58:43][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:44][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:44][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:45][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:45][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\1. Goods Receipt\2.Goods Receipt_ใบรับสินค้า_(Batch_Serial)\1.Goods Receipt_ใบรับสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:58:45][INFO]     [main] G_Receipt : T4  5412 -> 5812 chars  User='sa'
+[2026-09-01 12:58:45][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:45][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:45][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:46][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:46][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\1.Goods Issue_ใบเบิกสินค้า_(Batch_Serial).rpt
+[2026-09-01 12:58:46][INFO]     [main] G_Issue_BS : T4  6777 -> 7177 chars  User='sa'
+[2026-09-01 12:58:46][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:47][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:47][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:48][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:48][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\2. Goods Issue\2.Goods Issue_ใบเบิกสินค้า_(Batch_Serial)\1.Goods Issue_ใบเบิกสินค้า_ENG (Batch_Serial).rpt
+[2026-09-01 12:58:48][INFO]     [main] G_Issue_BS : T4  7073 -> 7473 chars  User='sa'
+[2026-09-01 12:58:48][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:49][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:49][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:50][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\3. Inventory Transfer Request\1.Inventory Transfer Request_ใบขอโอนสินค้า\1.Inventory Transfer Request_ใบขอโอนสินค้า.rpt
+[2026-09-01 12:58:50][INFO]     [main] Transfer_Re : T4  4624 -> 5024 chars  User='sa'
+[2026-09-01 12:58:50][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:51][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:51][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\5. Inventory\4. Inventory Transfer\2.Inventory Transfer_ใบโอนสินค้า(Batch_Serial)\1.Inventory Transfer_ใบโอนสินค้า_TH_(Batch_Serial).rpt
+[2026-09-01 12:58:51][INFO]     [main] Transfer : T4  5930 -> 6330 chars  User='sa'
+[2026-09-01 12:58:51][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:52][ERR]     subreport 'Batch' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:52][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:55][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\6. Production\1. Production Order\1.Production Order_ใบสั่งผลิต\1.Production Order_ใบสั่งผลิต.rpt
+[2026-09-01 12:58:55][INFO]     [main] Prodution_Order : T4  2440 -> 2642 chars  User='sa'
+[2026-09-01 12:58:56][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:56][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\6. Production\2. Receipt from Production\1.Receipt from Production_ใบรับสินค้าจากการผลิต\1.Receipt from Production_ใบรับสินค้าจากการผลิต.rpt
+[2026-09-01 12:58:56][INFO]     [main] Receipt_f_Production : T4  2440 -> 2642 chars  User='sa'
+[2026-09-01 12:58:57][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:58][ERR]     subreport 'B/S Number' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:58][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\6. Production\2. Receipt from Production\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial)\2.Receipt from Production_ใบรับสินค้าจากการผลิต_(Batch_Serial).rpt
+[2026-09-01 12:58:58][INFO]     [main] Receipt_f_Prodution : T4  6724 -> 7128 chars  User='sa'
+[2026-09-01 12:58:58][ERR]     subreport 'B/S Number' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:58][ERR]     subreport 'B/S Number' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:58:58][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:58:59][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\6. Production\3. Issue for Production\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต\1.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต.rpt
+[2026-09-01 12:58:59][INFO]     [main] Issue_f_Prodution : T4  6828 -> 7232 chars  User='SA'
+[2026-09-01 12:58:59][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:59:00][ERR]     subreport 'B/S Num' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:59:00][HIT] --> C:\GitHub\SDA\Form-Layout_SDA\6. Production\3. Issue for Production\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial)\2.Issue for Production_ใบเบิกวัตถุดิบเพื่อการผลิต_(Batch_Serial).rpt
+[2026-09-01 12:59:00][INFO]     [main] Issue_f_Prodution : T4  6828 -> 7232 chars  User='SA'
+[2026-09-01 12:59:00][ERR]     subreport 'B/S Num' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:59:00][ERR]     subreport 'B/S Num' has a null DatabaseController -- NOT PROCESSED
+[2026-09-01 12:59:00][OK]     verified on disk: 1 command(s) rewritten
+[2026-09-01 12:59:03][INFO] ==============================================================
+[2026-09-01 12:59:03][INFO] NEEDS DESIGNER UPDATE (8):
+[2026-09-01 12:59:03][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(BOM) ENG.rpt
+[2026-09-01 12:59:03][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\1.Sale Quotation_ใบเสนอราคาขาย(BOM)\1.Sale Quotation_ใบเสนอราคาขาย_(Bom).rpt
+[2026-09-01 12:59:03][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis) ENG.rpt
+[2026-09-01 12:59:03][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\1. Sales Quotation\2.Sale Quotation_ใบเสนอราคาขาย_(Dis)\2.Sale Quotation_ใบเสนอราคาขาย_(Dis).rpt
+[2026-09-01 12:59:03][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\1.Sale Order_ใบสั่งขาย_(Dis)\1.Sale Order_ใบสั่งขาย_(Dis).rpt
+[2026-09-01 12:59:03][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\2. Sales Order\3.Sale Order_ใบสั่งขาย_(Bomm)\2.Sale Order_ใบสั่งขาย_(Bom).rpt
+[2026-09-01 12:59:03][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\1.Delivery_ใบส่งของ_(Batch_Serial).rpt
+[2026-09-01 12:59:03][INFO]   U | C:\GitHub\SDA\Form-Layout_SDA\2. Sales - AR\3. Delivery\2.Delivery_ใบส่งของ_(Batch_Serial)\1.Delivery_ใบส่งของ_Eng (Batch_Serial).rpt
+[2026-09-01 12:59:03][INFO] SUMMARY mode=APPLY  files=64  changed=53  skipped=11  failed=0  commands=53  T1=0  T2=0  T3=0  T4=53  newlyPoisoned=8
+[2026-09-01 12:59:03][INFO] ==============================================================
